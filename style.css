@@ -310,8 +310,42 @@ header nav ul li a:hover::after {
     color: white;
 }
 
+.chatbotimg{
+    background: url('./assests/chatbot.png') center/cover no-repeat;
+    height: 70vh;
+    width: 100%;
+    /* background-attachment: fixed; */
+    filter: brightness(0.5);
+    z-index: -1;
+    padding-bottom: 40px;
+}
 
+.chatbotcont{
+    background-color: #181332;
+    width: 100%;
+}
 
+.chatbotcont h1{
+    color: white;
+}
+
+.chatbotcont h1 span{
+    color: #4D27D2;
+    text-decoration: underline;
+}
+
+.chatbotcont1 i{
+    color: white ;
+    font-size: 65px;
+}
+
+.chatbotcont1 h2{
+    color: #713DE7;
+}
+
+.chatbotcont1 p{
+    color: white;
+}
 /* --------------------------- Mobile Styles ---------------------------- */
 @media(max-width:768px) {
     .btn-wrap {
