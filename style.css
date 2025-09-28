@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk" ;
+}
+
+body {
+    background: #111;
+    color: white;
+}
+
+.herosec {
+    width: 100%;
+    min-height: 100vh;
+    background: url('./assests/heropage.jpg') center/cover no-repeat;
+    
+}
+
+
+
+/* ____________________________ Header ____________________________*/
+header {
+    width: 100%;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative; */
+    z-index: 1000; 
+    /* position: sticky; */
+    top: 0;
+    background-color:rgba(113, 51, 231, 0.1);
+    transition: all 0.3 ease-in-out;
+    background: rgba(255, 251, 251, 0.1); 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4); 
+    /* backdrop-filter: blur(5px);  */
+    /* -webkit-backdrop-filter: blur(5px);   */
+    /* border: 1px solid rgba(255, 255, 255, 0.3);   */
+}
+
+
+header nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-top: 15px;
+}
+
+header nav ul li a {
+    position: relative;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding-bottom: 4px;
+    transition: color 0.3s ease;
+}
+
+/* header nav ul li a:hover {
+    color: #713DE7;
+} */
+
+header nav ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #713DE7;
+    transition: width 0.3s ease;
+}
+
+header nav ul li a:hover::after {
+    width: 100%;
+}
+.btn-wrap button:hover, 
+.heroBtn button:hover {
+    background: #713DE7;
+    border-color: #713DE7;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(247, 15, 247, 0.295);
+}
+
+.mobile-btn button {
+    display: none;
+}
+
+.btn-wrap button,
+.heroBtn button,
+.mobile-btn button {
+    padding: 15px 20px;
+    background: transparent;
+    border: 3px solid #713DE7;
+    color: white;
+    /* border-radius: 6px; */
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-wrap button:hover,
+.mobile-btn button:hover {
+    background: #713DE7;
+    border-color: #713DE7;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(59, 147, 248, 0.4);
+}
+
+.btn-wrap button a{
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    user-select: none;
+    color: white;
+}
+
+/* header completed */
+
+.mainHeading{
+    color: #713DE7;
+    font-size: 55px;
+}
+
+/* Hero Section COmpleted */
+
+.choose{
+    background-color: #0C052E   ;
+}
+
+.chooseh1{
+    font-size: 48px;
+}
+
+.choosebtn{
+    background-color: transparent;
+    border: 3px solid #713DE7;
+}
+
+.choosebtn:hover{
+    background-color: #713DE7;
+    transition: all 0.5s ease;
+    transform: translateY(-2px); 
+}
+
+
+.serviceSec{
+    background-color: #2f1c74;
+}
+
+
+.plancard{
+    background-color: #181332;
+    box-shadow: 4px 4px 15px white;
+}
+
+.plancard:hover{
+    transform: scale(1.02);
+    transition: all 0.3s ease-out;
+}
+
+.plancard h4{
+    color: #713DE7;
+}
+
+.planbtn{
+    background-color: #4D27D2;
+    color: white;
+}
+
+.planprice{
+    color: #4D27D2;
+}
+
+.planbtn:hover{
+    background-color: #fff;
+    color: #4D27D2;
+    transition: all 0.5s ease;
+}
+
+.attachImg{
+    background: url('./assests/attachedfinal.png') center/cover no-repeat;
+    height: 90vh;
+    width: 100%;
+    background-attachment: fixed;
+    filter: brightness(0.8);
+    z-index: -1;
+}
+.spaceCont{
+    width: 100%;
+    height: 9vh;
+}
+
+.attachContent{
+    width: 90%;
+    height: 70vh;
+    background: rgba(255, 251, 251, 0.1); 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
+    backdrop-filter: blur(5px); /* Blurs the content behind the element */
+    -webkit-backdrop-filter: blur(5px); /* Vendor prefix for older browsers */
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+.attachContent h1{
+    margin-left: 2%;
+    font-size: 45px;
+    color: white;
+}
+
+.attachContent h1 span{
+    color: #4D27D2;
+    text-decoration: underline;
+}
+
+
+.attachimgcont1{
+    width: 90px;
+    height: 90px;
+    background-image: url("./assests/analysis.png");
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+.attachcards h3,
+.attachcards p{
+    color: white;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.attachcards h3{
+    color: #4D27D2;
+    font-weight: 700;
+}
+
+.attachimgcont2{
+    width: 90px;
+    height: 90px;
+    background-image: url("./assests/detection.png");
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+.attachimgcont3{
+    width: 90px;
+    height: 90px;
+    background-image: url("./assests/predictive.png");
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+.contactsec{
+        background: url('./assests/heroimg.jpg') center/cover no-repeat;
+}
+
+.contactcontent{
+    width: 86%;
+    background: rgba(73, 17, 194, 0.142); 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
+    backdrop-filter: blur(5px); /* Blurs the content behind the element */
+    -webkit-backdrop-filter: blur(5px); /* Vendor prefix for older browsers */
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+.contactcontent h2{
+    color: white;
+    font-size: 45px;
+    padding: 10px 10px;
+}
+
+.contactcontent h2 span{
+    color: #4D27D2;
+    text-decoration: underline;
+}
+
+.chaticon{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    width: 80px;
+    height: 80px;
+    background-color: #4D27D2;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.chaticon i{
+    font-size: 50px;
+    margin-left: 10px;
+    color: white;
+}
+
+/* --------------------------- Mobile Styles ---------------------------- */
+@media(max-width:768px) {
+    .btn-wrap {
+        display: none;
+    }
+
+    header {
+        padding: 20px 20px;
+
+    }
+
+    @media (max-width:768px) {
+        .btn-wrap {
+            display: none;
+        }
+
+        .mobile-btn button {
+            display: block;
+            border: 1px solid;
+            padding: 13px 15px;
+        }
+
+        header nav {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 75%;
+            max-width: 300px;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.75);
+            backdrop-filter: blur(10px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateX(100%);
+            transition: transform 0.4s ease;
+        }
+
+        header nav.show {
+            transform: translateX(0);
+        }
+
+        header nav ul {
+            flex-direction: column;
+            gap: 40px;
+            list-style: none;
+            text-align: center;
+        }
+
+        header nav ul li {
+            opacity: 0;
+            transform: translateX(30px);
+            transition: all 0.4s ease;
+        }
+
+        header nav.show ul li {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        header nav.show ul li:nth-child(1) {
+            transition-delay: 0.1s;
+        }
+
+        header nav.show ul li:nth-child(2) {
+            transition-delay: 0.2s;
+        }
+
+        header nav.show ul li:nth-child(3) {
+            transition-delay: 0.3s;
+        }
+
+        header nav.show ul li:nth-child(4) {
+            transition-delay: 0.4s;
+        }
+
+        header nav.show ul li:nth-child(5) {
+            transition-delay: 0.5s;
+        }
+
+        .hamburger {
+            display: block;
+            font-size: 28px;
+            cursor: pointer;
+            z-index: 200;
+        }
+
+    }
+
+    /* _____ Header close _______*/
+
+    .chaticon{
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .chaticon i{
+        font-size: 30px;
+    }
+
+    .mainHeading{
+        font-size: 45px;
+        
+    }
+
+    .chooseh1{
+        font-size: 30px;
+    }
+
+    .choosepara{
+        font-size: 8px;
+        line-height: 1.2;
+    }
+
+    .attachContent h1{
+        font-size: 35px;
+    }
+
+    .contactcontent{
+        width: 95%;
+        margin: auto;
+    }
+
+    .contactcontent h2{
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+
+
+}
+
