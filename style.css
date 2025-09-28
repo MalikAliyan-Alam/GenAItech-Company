@@ -189,11 +189,12 @@ header nav ul li a:hover::after {
 
 .attachImg{
     background: url('./assests/attachedfinal.png') center/cover no-repeat;
-    height: 90vh;
+    /* height: 90vh; */
     width: 100%;
     background-attachment: fixed;
     filter: brightness(0.8);
     z-index: -1;
+    padding-bottom: 40px;
 }
 .spaceCont{
     width: 100%;
@@ -202,8 +203,9 @@ header nav ul li a:hover::after {
 
 .attachContent{
     width: 90%;
-    height: 70vh;
-    background: rgba(255, 251, 251, 0.1); 
+    /* height: 70vh; */
+    padding-bottom: 30px;
+    background: rgba(24, 22, 22, 0.1); 
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
     backdrop-filter: blur(5px); /* Blurs the content behind the element */
     -webkit-backdrop-filter: blur(5px); /* Vendor prefix for older browsers */
@@ -307,6 +309,8 @@ header nav ul li a:hover::after {
     margin-left: 10px;
     color: white;
 }
+
+
 
 /* --------------------------- Mobile Styles ---------------------------- */
 @media(max-width:768px) {
@@ -437,6 +441,14 @@ header nav ul li a:hover::after {
         padding-bottom: 20px;
     }
 
+    .model{
+        z-index: -1;
+    }
 
+    .modelcont{
+        display: none;
+    }
+    
+    
 }
 
