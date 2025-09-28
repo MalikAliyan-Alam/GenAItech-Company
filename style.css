@@ -346,6 +346,21 @@ header nav ul li a:hover::after {
 .chatbotcont1 p{
     color: white;
 }
+
+.improveimg{
+    background: url('./assests/availible.png') center/cover no-repeat;
+    height: 70vh;
+    width: 100%;
+    /* background-attachment: fixed; */
+    filter: brightness(0.7);
+    z-index: -1;
+    padding-bottom: 40px;
+}
+
+.forimage{
+    width: 100%;
+    background-color: #02273a ;
+}
 /* --------------------------- Mobile Styles ---------------------------- */
 @media(max-width:768px) {
     .btn-wrap {
