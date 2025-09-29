@@ -3,10 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Space Grotesk" ;
+    font-family: "Space Grotesk" , sans-serif;
+
 }
 
 body {
+    overflow: hidden;
     background: #111;
     color: white;
 }
@@ -320,6 +322,12 @@ header nav ul li a:hover::after {
     padding-bottom: 40px;
 }
 
+.chatbotsec{
+    background-color: #181332;
+    width: 100%;
+    /* margin: auto; */
+}
+
 .chatbotcont{
     background-color: #181332;
     width: 100%;
@@ -345,6 +353,11 @@ header nav ul li a:hover::after {
 
 .chatbotcont1 p{
     color: white;
+}
+
+.improvedsec{
+    background-color: #02273a;
+    width: 100%;
 }
 
 .improveimg{
