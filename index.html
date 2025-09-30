@@ -8,35 +8,41 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
 
-    <section class="herosec">
+    <section class="herosec" id="hero">
 
         <!----------------Header start --------------->
         <header>
             <div class="logo " data-aos="fade-right" data-aos-duration="1000">
-                <img src="./assests/GenAiTech-logo-removebg-preview (1).png" width="160" alt="logo">
+                <a href="#hero"><img src="./assests/GenAiTech-logo-removebg-preview (1).png" width="160" alt="logo"></a>
             </div>
 
             <nav id="navMenu">
                 <ul>
-                    <li><a href="#home" data-aos="fade-down" data-aos-duration="1000"  data-aos-delay="100">Home</a></li>
-                    <li><a href="#about" data-aos="fade-down" data-aos-duration="1000"  data-aos-delay="200">About</a></li>
-                    <li><a href="#services" data-aos="fade-down" data-aos-duration="1000"  data-aos-delay="300">Services</a></li>
-                    <li><a href="#contact" data-aos="fade-down" data-aos-duration="1000"  data-aos-delay="400">Contact</a></li>
-                    <li><a href="#why" data-aos="fade-down" data-aos-duration="1000"  data-aos-delay="500">Choose Why?</a></li>
+                    <li><a href="#home" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">Home</a></li>
+                    <li><a href="#about" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">About</a>
+                    </li>
+                    <li><a href="#totalservices" data-aos="fade-down" data-aos-duration="1000"
+                            data-aos-delay="300">Services</a></li>
+                    <li><a href="#contact" data-aos="fade-down" data-aos-duration="1000"
+                            data-aos-delay="400">Contact</a></li>
+                    <li><a href="#why" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">Choose
+                            Why?</a></li>
                     <li class="mobile-btn" data-aos="fade-lest" data-aos-delay="700" data-aos-duration="1500">
-                        <button >Book a Meeting</button>
+                        <button>Book a Meeting</button>
                     </li>
                 </ul>
             </nav>
 
             <div class="btn-wrap" data-aos="fade-left" data-aos-delay="700" data-aos-duration="1500">
-                <button><a href="#contact">Book a Meeting</a></button>
+                <a href="#contact"><button>Book a Meeting</button></a>
             </div>
 
             <div class="hamburger" id="hamburger">☰</div>
@@ -49,17 +55,21 @@
             </div>
             <div class="row pt-md-5">
                 <div class="col-md-6 pt-5 ps-5">
-                    <h1 class="mainHeading" data-aos="fade-right" data-aos-delay="700" data-aos-duration="1500">Boost <span class="text-light">AI That Powers Your Next Move</span></h1>
-                    <p class="heroPara text-light" data-aos="fade-right" data-aos-delay="900" data-aos-duration="1500">Turn complex challenges into smart solutions our AI technology helps
+                    <h1 class="mainHeading" data-aos="fade-right" data-aos-delay="700" data-aos-duration="1500">Boost
+                        <span class="text-light">AI That Powers Your Next Move</span></h1>
+                    <p class="heroPara text-light" data-aos="fade-right" data-aos-delay="900" data-aos-duration="1500">
+                        Turn complex challenges into smart solutions our AI technology helps
                         your business work faster and smarter.</p>
                     <div class="heroBtn pt-3" data-aos="zoom-in-right" data-aos-delay="1100" data-aos-duration="1500">
-                        <button>Book a Meeting</button>
+                        <a href="#contact"><button>Book a Meeting</button></a>
                     </div>
                 </div>
-                <div class="col-md-6 p-md-5 modelcont" data-aos="fade-left" data-aos-delay="1500" data-aos-duration="1500">
+                <div class="col-md-6 p-md-5 modelcont" data-aos="fade-left" data-aos-delay="1500"
+                    data-aos-duration="1500">
                     <script type="module" class=" model"
                         src="https://unpkg.com/@splinetool/viewer@1.10.69/build/spline-viewer.js"></script>
                     <spline-viewer url="https://prod.spline.design/4HmSANv0tu-HrhBL/scene.splinecode"></spline-viewer>
+                    
                 </div>
             </div>
 
@@ -72,165 +82,174 @@
 
     </section>
 
-    <!-- background attachment section  -->
+    <div class="totalservices" id="totalservices">
+   
+         <!-- background attachment section  -->
 
-    <div class="attachImg">
-        <div class="spaceCont"></div>
-        <div class="attachContent mx-auto pt-5 container">
-            <h1>Advanced <span>Machine Learning</span> Implementation: Unlocking Insights</h1>
-            <div class="cardscont row " >
-                <div class="attachcards col-md-4">
-                    <div class="attachimgcont1">
+
+        <div class="attachImg">
+            <div class="spaceCont"></div>
+            <div class="attachContent mx-auto pt-5 container">
+                <h1>Advanced <span>Machine Learning</span>: <br> Unlocking Insights</h1>
+                <div class="cardscont row pt-4">
+                    <div class="attachcards col-md-4">
+                        <div class="attachimgcont1">
+                        </div>
+                        <h3>Sentiment Analysis</h3>
+                        <p>Understand customer sentiment and feedback from various sources</p>
                     </div>
-                    <h3>Sentiment Analysis</h3>
-                    <p>Understand customer sentiment and feedback from various sources</p>
-                </div>
-                <div class="attachcards col-md-4">
-                    <div class="attachimgcont2">
+                    <div class="attachcards col-md-4">
+                        <div class="attachimgcont2">
+                        </div>
+                        <h3>Anomaly Detection</h3>
+                        <p>Identify unusual patterns and potential risks within your data.</p>
                     </div>
-                    <h3>Anomaly Detection</h3>
-                    <p>Identify unusual patterns and potential risks within your data.</p>
-                </div>
-                <div class="attachcards col-md-4">
-                    <div class="attachimgcont3">
+                    <div class="attachcards col-md-4">
+                        <div class="attachimgcont3">
+                        </div>
+                        <h3>Predictive Analytics</h3>
+                        <p>Forecast future trends and outcomes based on historical data</p>
                     </div>
-                    <h3>Predictive Analytics</h3>
-                    <p>Forecast future trends and outcomes based on historical data</p>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- background attachment section Completed -->
+        <!-- background attachment section Completed -->
 
 
-    <!-- chatbot section started -->
+        <!-- chatbot section started -->
 
-    <section class="chatbotsec ">
-        <div class="chatbotimg"></div>
-        <div class="chatbotcont row p-5 container mx-auto">
-            <h1>Intelligent <span>Chatbot</span> Development: 
-                Enhancing Customer Experience</h1> <br>
-            <div class="col-md-4 chatbotcont1 p-5"> 
-                <i class="fa-solid fa-comment-sms"></i><br>
-                <h2 class="py-3 ">24/7 Availability <br> Non-Stop</h2>
-                <p>24/7 availability, reduced operating costs through automated task handling, faster response times</p>
+        <section class="chatbotsec ">
+            <div class="chatbotimg"></div>
+            <div class="chatbotcont row p-5 container mx-auto">
+                <h1>Intelligent <span>Chatbot</span> Development:
+                    Enhancing Customer Experience</h1> <br>
+                <div class="col-md-4 chatbotcont1 p-5">
+                    <i class="fa-solid fa-comment-sms"></i><br>
+                    <h2 class="py-3 ">24/7 Availability <br> Non-Stop</h2>
+                    <p>24/7 availability, reduced operating costs through automated task handling, faster response times
+                    </p>
+                </div>
+                <div class="col-md-4 chatbotcont1 p-5">
+                    <i class="fa-solid fa-robot"></i><br>
+                    <h2 class="py-3 ">Personalized Interactions</h2>
+                    <p>Deliver tailored responses based on customer preferences and past interactions.</p>
+                </div>
+                <div class="col-md-4 chatbotcont1 p-5">
+                    <i class="fa-solid fa-heart"></i><br>
+                    <h2 class="py-3 ">Improved Satisfaction</h2>
+                    <p>Enhance customer satisfaction with prompt and helpful interactions.</p>
+                </div>
             </div>
-            <div class="col-md-4 chatbotcont1 p-5"> 
-                <i class="fa-solid fa-robot"></i><br>
-                <h2 class="py-3 ">Personalized Interactions</h2>
-                <p>Deliver tailored responses based on customer preferences and past interactions.</p>
-            </div>
-            <div class="col-md-4 chatbotcont1 p-5"> 
-                <i class="fa-solid fa-heart"></i><br>
-                <h2 class="py-3 ">Improved  Satisfaction</h2>
-                <p>Enhance customer satisfaction with prompt and helpful interactions.</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- chatbot section ended  -->
-    
-    <!-- improved section started  -->
-    
-    <section class="improvedsec">
-        <div class="improveimg"></div>
-        <div class="chatbotcont forimage row p-5 container mx-auto">
-            <h1>Process <span>Automation:</span> for Optimizing Business <br> Efficiency</h1> <br>
-            <div class="col-md-4 chatbotcont1 p-5"> 
-                <i class="fa-solid fa-bug"></i><br>
-                <h2 class="py-3 ">Reduced Errors Effectively<br></h2>
-                <p>Eliminate manual errors and inconsistencies through automated workflows.</p>
+        <!-- chatbot section ended  -->
+
+        <!-- improved section started  -->
+
+        <section class="improvedsec">
+            <div class="improveimg"></div>
+            <div class="chatbotcont forimage row p-5 container mx-auto">
+                <h1>Process <span>Automation:</span> for Optimizing Business <br> Efficiency</h1> <br>
+                <div class="col-md-4 chatbotcont1 p-5">
+                    <i class="fa-solid fa-bug"></i><br>
+                    <h2 class="py-3 ">Reduced Errors Effectively<br></h2>
+                    <p>Eliminate manual errors and inconsistencies through automated workflows.</p>
+                </div>
+                <div class="col-md-4 chatbotcont1 p-5">
+                    <i class="fa-solid fa-chart-simple"></i><br>
+                    <h2 class="py-3 ">Improved Productivity</h2>
+                    <p>Free up your team to focus on strategic tasks by automating repetitive processes..</p>
+                </div>
+                <div class="col-md-4 chatbotcont1 p-5">
+                    <i class="fa-solid fa-turn-up"></i><br>
+                    <h2 class="py-3 ">Faster Turnaround Times</h2>
+                    <p>Streamline workflows and accelerate decision-making with automated processes..</p>
+                </div>
             </div>
-            <div class="col-md-4 chatbotcont1 p-5"> 
-                <i class="fa-solid fa-chart-simple"></i><br>
-                <h2 class="py-3 ">Improved Productivity</h2>
-                <p>Free up your team to focus on strategic tasks by automating repetitive processes..</p>
-            </div>
-            <div class="col-md-4 chatbotcont1 p-5"> 
-                <i class="fa-solid fa-turn-up"></i><br>
-                <h2 class="py-3 ">Faster Turnaround Times</h2>
-                <p>Streamline workflows and accelerate decision-making with automated processes..</p>
-            </div>
-        </div>
-    </section>
-    
-    <!-- improved section ended  -->
+        </section>
+
+        <!-- improved section ended  -->
+
+        
 
         <!-- what we do section started -->
 
-    <section class="serviceSec  p-5" id="Services">
-        <h2 class="text-light  h1 text-center">What We Do?</h2>
-        <h5 class="text-light text-center">Custom AI Agent Solutions: Tailored for Your Needs</h5>
+        <section class="serviceSec  p-5" id="Services">
+            <h2 class="text-light  h1 text-center">What We Do?</h2>
+            <h5 class="text-light text-center">Custom AI Agent Solutions: Tailored for Your Needs</h5>
 
-        <div class="plans">
-            <div class="container p-5 text-center text-light">
-
-
-                <div class="plancards row g-5   justify-content-around">
-                    <div class="col-md-3 py-5  plancard">
-                        <h4 class="text-light">AI Voice Agents</h4>
-                        <h2 class="pb-3 fw-bold planprice">VoiceBots</h2>
-
-                        <ul class=" text-light text-start pb-4 gap-2">
-                            <li class="pb-2">Intelligent bots that talk like humans.</li>
-                            <li class="pb-2">Virtual agents that understands AnyThing</li>
-                            <li class="pb-2">Voice AI powering next-gen communication.</li>
-                        </ul>
-                        <button class="planbtn p-2 px-3">Learn More</button>
-                    </div>
+            <div class="plans">
+                <div class="container p-5 text-center text-light">
 
 
+                    <div class="plancards row g-5   justify-content-around">
+                        <div class="col-md-3 py-5  plancard">
+                            <h4 class="text-light">AI Voice Agents</h4>
+                            <h2 class="pb-3 fw-bold planprice">VoiceBots</h2>
 
-                    <div class="col-md-3 py-5  plancard">
-                        <h4 class="text-light">Process Optimize</h4>
-                        <h2 class="pb-3 fw-bold planprice">AIOps</h2>
-
-                        <ul class=" text-light text-start pb-4">
-                            <li class="pb-2">AI streamlines workflows for peak efficiency.</li>
-                            <li class="pb-2">Smart automation reduces errors</li>
-                            <li class="pb-2">Data-driven insights enhance decisions.</li>
-                        </ul>
-                        <button class="planbtn p-2 px-3">Learn More</button>
-                    </div>
+                            <ul class=" text-light text-start pb-4 gap-2">
+                                <li class="pb-2">Intelligent bots that talk like humans.</li>
+                                <li class="pb-2">Virtual agents that understands AnyThing</li>
+                                <li class="pb-2">Voice AI powering next-gen communication.</li>
+                            </ul>
+                            <button class="planbtn p-2 px-3">Learn More</button>
+                        </div>
 
 
-                    <div class="col-md-3 py-5  plancard">
-                        <h4 class="text-light">Data Analysis</h4>
-                        <h2 class="pb-3 fw-bold planprice">Analytics</h2>
 
-                        <ul class=" text-light text-start pb-4">
-                            <li class="pb-2">Data reveals powerful patterns</li>
-                            <li class="pb-2">Analytics drive smarter decisions.</li>
-                            <li class="pb-2">Intelligence fuels business growth.</li>
-                        </ul>
-                        <button class="planbtn p-2 px-3">Learn More</button>
+                        <div class="col-md-3 py-5  plancard">
+                            <h4 class="text-light">Process Optimize</h4>
+                            <h2 class="pb-3 fw-bold planprice">AIOps</h2>
+
+                            <ul class=" text-light text-start pb-4">
+                                <li class="pb-2">AI streamlines workflows for peak efficiency.</li>
+                                <li class="pb-2">Smart automation reduces errors</li>
+                                <li class="pb-2">Data-driven insights enhance decisions.</li>
+                            </ul>
+                            <button class="planbtn p-2 px-3">Learn More</button>
+                        </div>
+
+
+                        <div class="col-md-3 py-5  plancard">
+                            <h4 class="text-light">Data Analysis</h4>
+                            <h2 class="pb-3 fw-bold planprice">Analytics</h2>
+
+                            <ul class=" text-light text-start pb-4">
+                                <li class="pb-2">Data reveals powerful patterns</li>
+                                <li class="pb-2">Analytics drive smarter decisions.</li>
+                                <li class="pb-2">Intelligence fuels business growth.</li>
+                            </ul>
+                            <button class="planbtn p-2 px-3">Learn More</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
 
 
-    </section>
+        </section>
 
-    <!-- what we do section ended  -->
+        <!-- what we do section ended  -->
+
+    </div>
 
     <!-- choose section started -->
 
-    
+
     <div class="choose p-5" id="why">
         <div class="container pb-5">
             <h2 class="text-light p-5 why">Why Choose Us?</h2>
-           <div class="row g-5 pb-2">
+            <div class="row g-5 pb-2">
                 <div class="col-md-6 MB">
                     <img src="./assests/Rectangle 69.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-6">
                     <h1 class="fw-bolder text-light pb-3 chooseh1 ">Solutions Tailored Specifically to Your Business
                         Needs</h1>
-                    <p class="text-light fw-light fs-3 pb-md-5 choosepara">We provide customized solutions for your business needs,
+                    <p class="text-light fw-light fs-3 pb-md-5 choosepara">We provide customized solutions for your
+                        business needs,
                         ensuring relevance and success.</p>
                     <button class="choosebtn p-3 text-light">Learn More</button>
                 </div>
@@ -241,7 +260,8 @@
 
                 <div class="col-md-6 order-2 order-md-1">
                     <h1 class="fw-bolder text-light pb-3 chooseh1">Creative Excellence Elevates Every Project</h1>
-                    <p class="text-light fw-light fs-3 pb-md-5 choosepara">Creative excellence drives our work. From concept to
+                    <p class="text-light fw-light fs-3 pb-md-5 choosepara">Creative excellence drives our work. From
+                        concept to
                         execution, we aim for exceptional results..</p>
                     <button class="choosebtn p-3 text-light">Learn More</button>
                 </div>
@@ -256,7 +276,8 @@
                 </div>
                 <div class="col-md-6">
                     <h1 class="fw-bolder text-light pb-3 chooseh1">Client Satisfaction is Our Main Focus</h1>
-                    <p class="text-light fw-light fs-3 pb-md-5 choosepara">Our main goal is your satisfaction, and we work tirelessly
+                    <p class="text-light fw-light fs-3 pb-md-5 choosepara">Our main goal is your satisfaction, and we
+                        work tirelessly
                         to ensure that you are pleased with the results we achieve together.</p>
                     <button class="choosebtn p-3 text-light">Learn More</button>
                 </div>
@@ -269,12 +290,12 @@
 
 
     <section class="ourteam">
-        
+
     </section>
 
 
 
-     <!-- contact us section started -->
+    <!-- contact us section started -->
 
     <section class="contactsec p-md-5 pt-4" id="contact">
         <div class="contactcontent mx-md-auto">
@@ -286,17 +307,17 @@
             <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
             <!-- Calendly inline widget end -->
         </div>
-    
+
     </section>
 
     <!-- contact us section ended  -->
-    
 
-</body>    
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
+
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
     AOS.init();
-  </script>
+</script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>

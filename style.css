@@ -11,6 +11,7 @@ body {
     overflow-x: hidden;
     background: #111;
     color: white;
+    scroll-behavior: smooth;
 }
 
 .herosec {
@@ -126,7 +127,10 @@ header nav ul li a:hover::after {
     color: white;
 }
 
+
+
 /* header completed */
+
 
 .mainHeading{
     color: #713DE7;
@@ -190,13 +194,10 @@ header nav ul li a:hover::after {
 }
 
 .attachImg{
-    background: url('./assests/attachedfinal.png') center/cover no-repeat;
-    /* height: 90vh; */
     width: 100%;
-    background-attachment: fixed;
-    filter: brightness(0.8);
     z-index: -1;
     padding-bottom: 40px;
+    background-color: #02273a;
 }
 .spaceCont{
     width: 100%;
@@ -207,7 +208,7 @@ header nav ul li a:hover::after {
     width: 90%;
     /* height: 70vh; */
     padding-bottom: 30px;
-    background: rgba(24, 22, 22, 0.1); 
+    background: rgba(2, 2, 2, 0.253); 
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
     backdrop-filter: blur(5px); /* Blurs the content behind the element */
     -webkit-backdrop-filter: blur(5px); /* Vendor prefix for older browsers */
