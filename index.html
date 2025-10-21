@@ -17,6 +17,8 @@
 <body>
 
     <section class="herosec" id="hero">
+        <section class="heroMainCont container-fluid pt-3 z-1 " id="home">
+            
 
         <!----------------Header start --------------->
         <header>
@@ -49,27 +51,65 @@
         </header>
         <!---------------- Header end ------------------------>
 
-        <section class="heroMainCont container-fluid pt-3 z-1 " id="home">
-            <div class="chaticon">
-                <i class="fa-solid fa-comments my-auto mt-3"></i>
+            <div class="chat">
+                <i class="fa-solid fa-comments my-auto mt-3">
+                    <script>
+                        window.ChatWidgetConfig = {
+                            webhook : {
+                                url : 'Webhook Url',
+                                route : 'general'
+                            },
+                            branding : {
+                                logo : 'https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:1200/https://cdn.gamma.app/5egk2ghu94byy3y/343ddf6f6bb240b5bc029f4035519f71/original/JdnYn-gyxyScPcMAHTl5r.jpg',
+                                name : 'GenAiTech',
+                                welcomeText : 'Get instent answers To your questions!',
+                                responseTimeText : 'Click the button below to start Chatting!'
+                            },
+                            style : {
+                                primaryColor : '#713DE7',
+                                secondaryColor : '#0C052E',
+                                position : 'right',
+                                backgroundColor : '#ffffff',
+                                fontColor : "#1f2987",
+                                height : '100px'
+                            }
+                        }
+                    </script>
+                    <script src="index.js"></script>
+                </i>
             </div>
+
+
+            <canvas id="canvas"></canvas>
+  <script type="module">
+    import { DotLottie } from "https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web/+esm";
+
+    new DotLottie({
+      autoplay: true,
+      loop: true,
+      canvas: document.getElementById("canvas"),
+      src: "https://lottie.host/56833cc1-b40c-4116-85c4-7ab4a06717bc/zFrvGoxw8g.lottie", // or .json file
+    });
+  </script>
+
+
             <div class="row pt-md-5">
-                <div class="col-md-6 pt-5 ps-5">
+                <div class="col-md-6 pt-5 ps-5 pb-4">
                     <h1 class="mainHeading" data-aos="fade-right" data-aos-delay="700" data-aos-duration="1500">Boost
                         <span class="text-light">AI That Powers Your Next Move</span></h1>
                     <p class="heroPara text-light" data-aos="fade-right" data-aos-delay="900" data-aos-duration="1500">
                         Turn complex challenges into smart solutions our AI technology helps
                         your business work faster and smarter.</p>
-                    <div class="heroBtn pt-3" data-aos="zoom-in-right" data-aos-delay="1100" data-aos-duration="1500">
-                        <a href="#contact"><button>Book a Meeting</button></a>
+                    <div class="heroBtn pt-3 pb-5" data-aos="zoom-in-right" data-aos-delay="1100" data-aos-duration="1500">
+                        <a href="#contact"><button class="herokabutton">Book a Meeting</button></a>
                     </div>
                 </div>
                 <div class="col-md-6 p-md-5 modelcont" data-aos="fade-left" data-aos-delay="1500"
                     data-aos-duration="1500">
-                    <script type="module" class=" model"
+                    <!-- <script type="module" class=" model"
                         src="https://unpkg.com/@splinetool/viewer@1.10.69/build/spline-viewer.js"></script>
                     <spline-viewer url="https://prod.spline.design/4HmSANv0tu-HrhBL/scene.splinecode"></spline-viewer>
-                    
+                     -->
                 </div>
             </div>
 
