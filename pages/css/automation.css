@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+
+}
+
+body {
+    overflow-x: hidden;
+    background: #111;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+canvas {
+    position: absolute;
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #111111;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    border: none;
+    /* background: url('./assests/heropage.jpg') center/cover no-repeat; */
+
+}
+
+
+
+/* ____________________________ Header ____________________________*/
+header {
+    width: 100%;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    /* position: sticky; */
+    top: 0;
+    /* background-color:#111111 !important; */
+    transition: all 0.3 ease-in-out;
+    /* background: rgba(255, 251, 251, 0.1);  */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+}
+
+
+header nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-top: 15px;
+}
+
+header nav ul li a {
+    position: relative;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding-bottom: 4px;
+    transition: color 0.3s ease;
+}
+
+/* header nav ul li a:hover {
+    color: #713DE7;
+} */
+
+header nav ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #713DE7;
+    transition: width 0.3s ease;
+}
+
+header nav ul li a:hover::after {
+    width: 100%;
+}
+
+.btn-wrap button:hover,
+.heroBtn button:hover {
+    background: #713DE7;
+    border-color: #713DE7;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(247, 15, 247, 0.295);
+}
+
+.mobile-btn button {
+    display: none;
+}
+
+.btn-wrap button,
+.heroBtn button,
+.mobile-btn button {
+    padding: 10px 15px;
+    background: transparent;
+    border: 3px solid #713DE7;
+    color: white;
+    /* border-radius: 6px; */
+    cursor: pointer;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+.btn-wrap button:hover,
+.mobile-btn button:hover {
+    background: #713DE7;
+    border-color: #713DE7;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(59, 147, 248, 0.4);
+}
+
+.btn-wrap button a {
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    user-select: none;
+    color: white;
+    z-index: -1000;
+}
+
+
+/* header completed */
+.herokabtn {
+    position: relative;
+    z-index: -2;
+}
+
+.mainHeading {
+    color: #713DE7;
+    font-size: 69px;
+}
+
+.herosec {
+    background-image: url('../../assests/heroimg.jpg');
+    width: 100%;
+    min-height: 100%;
+}
+
+.heroPara {
+    padding-bottom: 77px;
+}
+
+@media(max-width:768px) {
+    .btn-wrap {
+        display: none;
+    }
+
+    header {
+        padding: 20px 20px;
+
+    }
+
+    .mainHeading{
+        font-size: 35px;
+    }
+
+    @media (max-width:768px) {
+        .btn-wrap {
+            display: none;
+        }
+
+        .mobile-btn button {
+            display: block;
+            border: 1px solid;
+            padding: 13px 15px;
+        }
+
+        header nav {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 75%;
+            max-width: 300px;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.75);
+            backdrop-filter: blur(10px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateX(100%);
+            transition: transform 0.4s ease;
+            z-index: 10;
+        }
+
+        header nav.show {
+            transform: translateX(0);
+            z-index: 10;
+        }
+
+        header nav ul {
+            flex-direction: column;
+            gap: 40px;
+            list-style: none;
+            text-align: center;
+        }
+
+        header nav ul li {
+            opacity: 0;
+            transform: translateX(30px);
+            transition: all 0.4s ease;
+        }
+
+        header nav.show ul li {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        header nav.show ul li:nth-child(1) {
+            transition-delay: 0.1s;
+        }
+
+        header nav.show ul li:nth-child(2) {
+            transition-delay: 0.2s;
+        }
+
+        header nav.show ul li:nth-child(3) {
+            transition-delay: 0.3s;
+        }
+
+        header nav.show ul li:nth-child(4) {
+            transition-delay: 0.4s;
+        }
+
+        header nav.show ul li:nth-child(5) {
+            transition-delay: 0.5s;
+        }
+
+        .hamburger {
+            display: block;
+            font-size: 28px;
+            cursor: pointer;
+            z-index: 200;
+        }
+
+    }
+
+}
+
+    /* _____ Header close _______*/
+
+
+
