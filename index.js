@@ -51,7 +51,7 @@ hamburger.addEventListener('click', () => {
             width: 320px;
             height: 480px;
             background: var(--chat-color-surface);
-            border-radius: var(--chat-radius-lg);
+            // border-radius: var(--chat-radius-lg);
             box-shadow: var(--chat-shadow-lg);
             border: 1px solid var(--chat-color-light);
             overflow: hidden;
@@ -89,7 +89,7 @@ hamburger.addEventListener('click', () => {
         .chat-assist-widget .chat-header-logo {
             width: 32px;
             height: 32px;
-            border-radius: var(--chat-radius-sm);
+            // border-radius: var(--chat-radius-sm);
             object-fit: contain;
             background: white;
             padding: 4px;
@@ -116,7 +116,7 @@ hamburger.addEventListener('click', () => {
             justify-content: center;
             transition: var(--chat-transition);
             font-size: 18px;
-            border-radius: var(--chat-radius-full);
+            // border-radius: var(--chat-radius-full);
             width: 28px;
             height: 28px;
         }
@@ -155,7 +155,7 @@ hamburger.addEventListener('click', () => {
             background: linear-gradient(135deg, var(--chat-color-primary) 0%, var(--chat-color-secondary) 100%);
             color: white;
             border: none;
-            border-radius: var(--chat-radius-md);
+            // border-radius: var(--chat-radius-md);
             cursor: pointer;
             font-size: 15px;
             transition: var(--chat-transition);
@@ -206,12 +206,12 @@ hamburger.addEventListener('click', () => {
 
         .chat-assist-widget .chat-messages::-webkit-scrollbar-thumb {
             background-color: rgba(16, 185, 129, 0.3);
-            border-radius: var(--chat-radius-full);
+            // border-radius: var(--chat-radius-full);
         }
 
         .chat-assist-widget .chat-bubble {
             padding: 14px 18px;
-            border-radius: var(--chat-radius-md);
+            // border-radius: var(--chat-radius-md);
             max-width: 85%;
             word-wrap: break-word;
             font-size: 14px;
@@ -244,7 +244,7 @@ hamburger.addEventListener('click', () => {
             gap: 4px;
             padding: 14px 18px;
             background: white;
-            border-radius: var(--chat-radius-md);
+            // border-radius: var(--chat-radius-md);
             border-bottom-left-radius: 4px;
             max-width: 80px;
             align-self: flex-start;
@@ -256,7 +256,7 @@ hamburger.addEventListener('click', () => {
             width: 8px;
             height: 8px;
             background: var(--chat-color-primary);
-            border-radius: var(--chat-radius-full);
+            // border-radius: var(--chat-radius-full);
             opacity: 0.7;
             animation: typingAnimation 1.4s infinite ease-in-out;
         }
@@ -294,7 +294,7 @@ hamburger.addEventListener('click', () => {
             flex: 1;
             padding: 14px 16px;
             border: 1px solid var(--chat-color-light);
-            border-radius: var(--chat-radius-md);
+            // border-radius: var(--chat-radius-md);
             background: var(--chat-color-surface);
             color: var(--chat-color-text);
             resize: none;
@@ -320,7 +320,7 @@ hamburger.addEventListener('click', () => {
             background: linear-gradient(135deg, var(--chat-color-primary) 0%, var(--chat-color-secondary) 100%);
             color: white;
             border: none;
-            border-radius: var(--chat-radius-md);
+            // border-radius: var(--chat-radius-md);
             width: 48px;
             height: 48px;
             cursor: pointer;
@@ -346,7 +346,7 @@ hamburger.addEventListener('click', () => {
             position: fixed;
             bottom: 20px;
             height: 56px;
-            border-radius: var(--chat-radius-full);
+            // border-radius: var(--chat-radius-full);
             background: linear-gradient(135deg, var(--chat-color-primary) 0%, var(--chat-color-secondary) 100%);
             color: white;
             border: none;
@@ -416,7 +416,7 @@ hamburger.addEventListener('click', () => {
         .chat-assist-widget .suggested-question-btn {
             background: #f3f4f6;
             border: 1px solid var(--chat-color-light);
-            border-radius: var(--chat-radius-md);
+            // border-radius: var(--chat-radius-md);
             padding: 10px 14px;
             text-align: left;
             font-size: 13px;
@@ -491,7 +491,7 @@ hamburger.addEventListener('click', () => {
         .chat-assist-widget .form-input {
             padding: 12px 14px;
             border: 1px solid var(--chat-color-border);
-            border-radius: var(--chat-radius-md);
+            // border-radius: var(--chat-radius-md);
             font-family: inherit;
             font-size: 14px;
             transition: var(--chat-transition);
@@ -522,7 +522,7 @@ hamburger.addEventListener('click', () => {
             background: linear-gradient(135deg, var(--chat-color-primary) 0%, var(--chat-color-secondary) 100%);
             color: white;
             border: none;
-            border-radius: var(--chat-radius-md);
+            // border-radius: var(--chat-radius-md);
             cursor: pointer;
             font-size: 15px;
             transition: var(--chat-transition);
