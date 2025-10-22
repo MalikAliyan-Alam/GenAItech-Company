@@ -13,22 +13,46 @@ body {
     background: #111;
     color: white;
     scroll-behavior: smooth;
+    position: relative;
+    z-index: -100;
 }
 
-canvas {
-    position: absolute;
-    display: block;
-    width: 100%;
-    min-height: 100vh;
-    background-color: #111111;
-    z-index: -1;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    left: 0;
-    border: none;
-    /* background: url('./assests/heropage.jpg') center/cover no-repeat; */
 
+/* Simple geometric mark */
+.logo-mark {
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+
+.logo-mark svg {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-mark path {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo:hover .logo-mark path {
+    stroke-width: 2.5;
+}
+
+/* Typography */
+.logo-text {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    text-underline-offset: none;
+    transition: all 0.3s ease;
+}
+
+.logo:hover .logo-text {
+    background: linear-gradient(90deg, #00D9FF, #00D9FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 
@@ -42,7 +66,7 @@ header {
     align-items: center;
     z-index: 1000;
     /* position: sticky; */
-    top: 0;
+    /* top: 0; */
     /* background-color:#111111 !important; */
     transition: all 0.3 ease-in-out;
     /* background: rgba(255, 251, 251, 0.1);  */
@@ -55,6 +79,7 @@ header nav ul {
     gap: 30px;
     list-style: none;
     margin-top: 15px;
+    z-index: 10;
 }
 
 header nav ul li a {
@@ -65,6 +90,7 @@ header nav ul li a {
     font-weight: 500;
     padding-bottom: 4px;
     transition: color 0.3s ease;
+    z-index: 10;
 }
 
 /* header nav ul li a:hover {
@@ -80,10 +106,12 @@ header nav ul li a::after {
     height: 2px;
     background: #713DE7;
     transition: width 0.3s ease;
+    z-index: 10;
 }
 
 header nav ul li a:hover::after {
     width: 100%;
+    z-index: 10;
 }
 
 .btn-wrap button:hover,
@@ -93,6 +121,7 @@ header nav ul li a:hover::after {
     color: #fff;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(247, 15, 247, 0.295);
+    z-index: 10;
 }
 
 .mobile-btn button {
@@ -110,6 +139,7 @@ header nav ul li a:hover::after {
     cursor: pointer;
     font-weight: 400;
     transition: all 0.3s ease;
+    z-index: 10;
 }
 
 .btn-wrap button:hover,
@@ -145,17 +175,129 @@ header nav ul li a:hover::after {
 .mainHeading {
     color: #713DE7;
     font-size: 69px;
+    z-index: 2;
 }
 
 .herosec {
-    background-image: url('../../assests/heroimg.jpg');
+    /* background-image: url('../../assests/heroimg.jpg'); */
     width: 100%;
     min-height: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #111;
+    z-index: -1;
 }
 
 .heroPara {
     padding-bottom: 77px;
 }
+
+/* background textures */
+
+.particles-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -16;
+    pointer-events: none;
+}
+
+/* Light background */
+.light-bg {
+    background: #ffffff;
+    padding: 40px 60px;
+    border-radius: 12px;
+}
+
+.light-bg .logo-text {
+    color: #0A0A0B;
+}
+
+.light-bg .logo:hover .logo-text {
+    background: linear-gradient(90deg, #7C3AED, #7C3AED);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* Dark background */
+.dark-bg {
+    background: #0A0A0B;
+    /* padding: 40px 60px; */
+    border-radius: 12px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+/* Custom Cursor */
+.cursor {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--secondary);
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    transition: all 0.1s ease;
+    z-index: 10000;
+    mix-blend-mode: difference;
+}
+
+.cursor-follower {
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 217, 255, 0.1);
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    z-index: 9999;
+}
+
+.cursor.active {
+    transform: scale(0.5);
+    background: var(--secondary);
+}
+
+/* background textuers ended */
+
+/* section 2 started */
+
+.section2 h1 {
+    width: 60%;
+}
+
+
+/* section 2 ended */
+
+/* section 3 started */
+
+.section3 {
+    background-image: url('https://10clouds.com/static/wave-light-1.f03875af.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.section3 h1 {
+    width: 60%;
+}
+
+.sec3Cards {
+    background-color: #fff;
+    box-shadow: rgba(71, 90, 158, 0.1) 0px 8px 24px;
+}
+
+.sec3Cards:hover {
+    transform: scale(1.050);
+    transition: all 0.3s;
+}
+
+/* section 3 ended */
 
 @media(max-width:768px) {
     .btn-wrap {
@@ -167,7 +309,7 @@ header nav ul li a:hover::after {
 
     }
 
-    .mainHeading{
+    .mainHeading {
         font-size: 35px;
     }
 
@@ -253,7 +395,4 @@ header nav ul li a:hover::after {
 
 }
 
-    /* _____ Header close _______*/
-
-
-
+/* _____ Header close _______*/

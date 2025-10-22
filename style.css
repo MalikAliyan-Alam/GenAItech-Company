@@ -22,13 +22,65 @@ canvas {
     background-color: #111111;
     z-index: -1;
     margin: 0;
-    padding: 0;
+    padding-left: 15%;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
     top: 0;
     left: 0;
     border: none;
     /* background: url('./assests/heropage.jpg') center/cover no-repeat; */
     
 }
+
+/* __________________LOGO______________________ */
+
+
+
+/* Simple geometric mark */
+.logo-mark {
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+
+.logo-mark svg {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-mark path {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo:hover .logo-mark path {
+    stroke-width: 2.5;
+}
+
+/* Typography */
+.logo-text {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    text-underline-offset: none;
+    transition: all 0.3s ease;
+}
+
+.logo:hover .logo-text {
+    background: linear-gradient(90deg, #00D9FF, #00D9FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.logo{
+    display: flex;
+    gap: 5px;
+}
+
+
+/* __________________LOGO______________________ */
 
 
 

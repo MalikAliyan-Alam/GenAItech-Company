@@ -14,19 +14,48 @@
 </head>
 <body>
     <section class="herosec" id="hero">
-        <section class="heroMainCont container-fluid pt-3 z-1 " id="home">
+        
+
+       <canvas class="particles-canvas" id="particles"></canvas>
+        <div class="floating-element" style="top: 10%; left: 10%;"></div>
+        <div class="floating-element" style="bottom: 10%; right: 10%;"></div>
+        
+    
+        <section class="heroMainCont container-fluid pt-3  " id="home">
             
 
         <!----------------Header start --------------->
         <header>
             <div class="logo " data-aos="fade-right" data-aos-duration="1000">
-                <a href="#hero"><img src="../../assests/GenAiTech-logo-removebg-preview (1).png" width="160" alt="logo"></a>
+                <a href="#hero"><div class="dark-bg">
+                    <div class="logo">
+                        <div class="logo-mark">
+                            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 4 L26 9 L26 16 L16 16" 
+                                      stroke="#00D9FF" 
+                                      stroke-width="2" 
+                                      stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      fill="none"/>
+                                <path d="M16 28 L6 23 L6 9 L16 4" 
+                                      stroke="#00D9FF" 
+                                      stroke-width="2" 
+                                      stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                      fill="none"/>
+                                <circle cx="16" cy="16" r="2" fill="#00D9FF"/>
+                                <circle cx="26" cy="16" r="1.5" fill="#00D9FF" opacity="0.6"/>
+                            </svg>
+                        </div>
+                        <div class="logo-text">GenAITech</div>
+                    </div>
+                </div></a>
             </div>
 
             <nav id="navMenu">
                 <ul>
-                    <li><a href="../../index.html" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">Home</a></li>
-                    <li><a href="#about" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">About</a>
+                    <li><a href="../../index.html" data-aos="fade-down" data-aos-duration="1000" >Home</a></li>
+                    <li><a href="#about" data-aos="fade-down" data-aos-duration="1000" >About</a>
                     </li>
                     <li><a href="#totalservices" data-aos="fade-down" data-aos-duration="1000"
                             data-aos-delay="300">Services</a></li>
@@ -76,6 +105,8 @@
                 </i>
             </div>
 
+        
+
 
             <!-- <canvas id="canvas"></canvas>
   <script type="module">
@@ -88,7 +119,7 @@
       src: "https://lottie.host/56833cc1-b40c-4116-85c4-7ab4a06717bc/zFrvGoxw8g.lottie", // or .json file
     });
   </script> -->
-
+             
 
             <div class="row pt-md-5">
                 <div class="col-md-8 pt-5 ps-5 pb-4">
@@ -111,6 +142,63 @@
 
         </section>
     </section>
+
+
+    <!-- hero section completed -->
+
+    <!-- next section started -->
+
+    <section class="section2 p-5">
+        <h1 class="text-center pt-5 pb-2  mx-auto">Seamless End-to-End AI Automation Tailored for Your Business</h1>
+        <h6 class="w-50 text-center mx-auto pb-5">Our AIConsole platform powers smart, tailored AI solutions that simplify your operations and integrate effortlessly. We keep ROI and performance at the core—so your AI delivers value where it matters most.</h6>
+        <div class="container-fluid row g-2">
+            <div class="col-md-4">
+                <div class="imgcont pb-4"><img src="https://cdn.sanity.io/images/s7xbv9bz/production/40285c02f5eb6bc116dae376fab6bd5c2b6b0690-1153x816.jpg?rect=0,1,1153,815&w=654&h=462&auto=format&fm=webp&q=100" width="379" height="236" alt=""></div>
+                <h3 class="ps-3 pb-3">Discovery Workshop</h3>
+                <p class="ps-3">We help you explore AI’s potential by assessing your data and identifying key opportunities. You’ll get actionable recommendations to integrate AI and drive efficiency.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="imgcont pb-4"><img src="https://cdn.sanity.io/images/s7xbv9bz/production/091720cb9a920cbec1e40f48add6b7bed8fb2bee-1153x816.png?rect=0,1,1153,815&w=654&h=462&auto=format&fm=webp&q=100" width="379" height="236" alt=""></div>
+                <h3 class="ps-3 pb-3">Proof of concept</h3>
+                <p class="ps-3">We create custom, interactive AI solutions for early validation, offering transparency throughout development and accelerating deployment while minimizing risks.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="imgcont pb-4"><img src="https://cdn.sanity.io/images/s7xbv9bz/production/75fb44be5ee79a8c68ab9c2857507a8c0d6b0cf0-1153x816.jpg?rect=0,1,1153,815&w=654&h=462&auto=format&fm=webp&q=100" width="379" height="236" alt=""></div>
+                <h3 class="ps-3 pb-3">Continous Automation</h3>
+                <p class="ps-3">Think of us as your extended IT team—constantly refining your operations and boosting ROI to build long-term efficiency and growth.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- next section ended -->
+
+    <!-- third section started  -->
+
+    <section class="section3 p-5 d-grid ">
+        <h1 class="text-center pt-5 pb-2  mx-auto">Streamline, Scale, and Innovate with AI</h1>
+        <h6 class="w-50 text-center mx-auto pb-5">Integrate intelligent AI solutions that maximize efficiency and empower sustainable growth.</h6>
+        <div class="container-fluid row g-3">
+            <div class="col-md-4 sec3Cards">
+                <div class="imgcontSec3 pb-4 text-center"><img src="https://cdn.sanity.io/images/s7xbv9bz/production/6a4c9591652aad7cb6984cae22fe9f144d3b91cd-140x140.svg"  alt=""></div>
+                <h3 class="px-2 pb-3 text-center">Enterprises and SMBs</h3>
+                <p class="px-2 text-center">Simplify workflows and scale automation to run operations smarter and faster</p>
+            </div>
+            <div class="col-md-4 sec3Cards">
+                <div class="imgcontSec3 pb-4 text-center"><img src="https://cdn.sanity.io/images/s7xbv9bz/production/a6e66596d99dd76e0a4966e43688ddde5cd042cf-140x140.svg"  alt=""></div>
+                <h3 class="px-2 pb-3 text-center">Startups</h3>
+                <p class="px-2 text-center">Achieve rapid growth with affordable AI tools built to spark innovation.</p>
+            </div>
+            <div class="col-md-4 sec3Cards">
+                <div class="imgcontSec3 pb-4 text-center"><img src="https://cdn.sanity.io/images/s7xbv9bz/production/98b06063a6b52d895094f8e49c6fb6ad2aa2c738-140x140.svg"  alt=""></div>
+                <h3 class="px-2 pb-3 text-center">Technology Teams</h3>
+                <p class="px-2 text-center">Automate tasks, cut repetitive work, and supercharge your team’s productivity.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- third section ended  -->
 </body>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
@@ -123,4 +211,5 @@
     integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
     crossorigin="anonymous"></script>
     <script src="../../index.js"></script>
+    <script src="../JavaScript/automation.js"></script>
 </html>
