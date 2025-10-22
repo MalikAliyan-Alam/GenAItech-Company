@@ -299,6 +299,36 @@ header nav ul li a:hover::after {
 
 /* section 3 ended */
 
+
+/* ________________ Canlendly section started_________________ */
+
+.section4{
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+}
+
+
+.section4Card{
+    width: 80%;
+    margin: auto;
+    background-color: #1F1637;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.profileCircle{
+    border-radius: 50%;
+    background-image: url('https://media.licdn.com/dms/image/v2/C5603AQHqinhNECnatA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517866358544?e=1762992000&v=beta&t=hl0sTB88yFTgo2Ag6D7WpM4DE_fpbi1c3LQcmHKhunw');
+}
+
+
+
+
+
+/* ________________ Canlendly section Ended_________________ */
+
 @media(max-width:768px) {
     .btn-wrap {
         display: none;

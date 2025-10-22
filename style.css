@@ -119,7 +119,7 @@ header nav ul li a {
 }
 
 /* header nav ul li a:hover {
-    color: #713DE7;
+    color: #00D9FF;
 } */
 
 header nav ul li a::after {
@@ -129,7 +129,7 @@ header nav ul li a::after {
     left: 0;
     width: 0;
     height: 2px;
-    background: #713DE7;
+    background: #00D9FF;
     transition: width 0.3s ease;
 }
 
@@ -138,9 +138,9 @@ header nav ul li a:hover::after {
 }
 .btn-wrap button:hover, 
 .heroBtn button:hover {
-    background: #713DE7;
-    border-color: #713DE7;
-    color: #fff;
+    background: #00D9FF;
+    border-color: #00D9FF;
+    color: #181332;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(247, 15, 247, 0.295);
 }
@@ -154,7 +154,7 @@ header nav ul li a:hover::after {
 .mobile-btn button {
     padding: 10px 15px;
     background: transparent;
-    border: 3px solid #713DE7;
+    border: 3px solid #00D9FF;
     color: white;
     /* border-radius: 6px; */
     cursor: pointer;
@@ -164,9 +164,9 @@ header nav ul li a:hover::after {
 
 .btn-wrap button:hover,
 .mobile-btn button:hover {
-    background: #713DE7;
-    border-color: #713DE7;
-    color: #fff;
+    background: #00D9FF;
+    border-color: #00D9FF;
+    color: #181332;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(59, 147, 248, 0.4);
 }
@@ -193,14 +193,25 @@ header nav ul li a:hover::after {
 }
 
 .mainHeading{
-    color: #713DE7;
+    color: #00D9FF;
     font-size: 55px;
+}
+
+.sidelinks li a{
+    text-decoration: none;
+    color: #04A7C4;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sidelinks li a:after{
+    content: ' ◈';
 }
 
 /* Hero Section COmpleted */
 
 .choose{
-    background-color: #0C052E   ;
+    background-color: #0C052E;
 }
 
 .chooseh1{
@@ -209,11 +220,11 @@ header nav ul li a:hover::after {
 
 .choosebtn{
     background-color: transparent;
-    border: 3px solid #713DE7;
+    border: 3px solid #00D9FF;
 }
 
 .choosebtn:hover{
-    background-color: #713DE7;
+    background-color: #00D9FF;
     transition: all 0.5s ease;
     transform: translateY(-2px); 
 }
@@ -235,7 +246,7 @@ header nav ul li a:hover::after {
 }
 
 .plancard h4{
-    color: #713DE7;
+    color: #00D9FF;
 }
 
 .planbtn{
@@ -409,7 +420,7 @@ header nav ul li a:hover::after {
 }
 
 .chatbotcont1 h2{
-    color: #713DE7;
+    color: #00D9FF;
 }
 
 .chatbotcont1 p{
