@@ -91,8 +91,9 @@ hamburger.addEventListener('click', () => {
             height: 32px;
             // border-radius: var(--chat-radius-sm);
             object-fit: contain;
-            background: white;
+            background: #111;
             padding: 4px;
+            
         }
 
         .chat-assist-widget .chat-header-title {

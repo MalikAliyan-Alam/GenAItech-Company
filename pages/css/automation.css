@@ -94,7 +94,7 @@ header nav ul li a {
 }
 
 /* header nav ul li a:hover {
-    color: #713DE7;
+    color: #00D9FF;
 } */
 
 header nav ul li a::after {
@@ -104,7 +104,7 @@ header nav ul li a::after {
     left: 0;
     width: 0;
     height: 2px;
-    background: #713DE7;
+    background: #00D9FF;
     transition: width 0.3s ease;
     z-index: 10;
 }
@@ -116,8 +116,8 @@ header nav ul li a:hover::after {
 
 .btn-wrap button:hover,
 .heroBtn button:hover {
-    background: #713DE7;
-    border-color: #713DE7;
+    background: #00D9FF;
+    border-color: #00D9FF;
     color: #fff;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(247, 15, 247, 0.295);
@@ -133,7 +133,7 @@ header nav ul li a:hover::after {
 .mobile-btn button {
     padding: 10px 15px;
     background: transparent;
-    border: 3px solid #713DE7;
+    border: 3px solid #00D9FF;
     color: white;
     /* border-radius: 6px; */
     cursor: pointer;
@@ -144,8 +144,8 @@ header nav ul li a:hover::after {
 
 .btn-wrap button:hover,
 .mobile-btn button:hover {
-    background: #713DE7;
-    border-color: #713DE7;
+    background: #00D9FF;
+    border-color: #00D9FF;
     color: #fff;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(59, 147, 248, 0.4);
@@ -173,7 +173,7 @@ header nav ul li a:hover::after {
 }
 
 .mainHeading {
-    color: #713DE7;
+    color: #00D9FF;
     font-size: 69px;
     z-index: 2;
 }
@@ -319,8 +319,18 @@ header nav ul li a:hover::after {
 }
 
 .profileCircle{
+    margin-bottom: 0;
     border-radius: 50%;
-    background-image: url('https://media.licdn.com/dms/image/v2/C5603AQHqinhNECnatA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517866358544?e=1762992000&v=beta&t=hl0sTB88yFTgo2Ag6D7WpM4DE_fpbi1c3LQcmHKhunw');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmw3FLyuRz7zZc_QXeWH1EkKZ7LX6DZSb6Fw&s');
+    background-position: center;
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+    border: 1px solid #00D9FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
