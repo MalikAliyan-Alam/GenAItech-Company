@@ -229,7 +229,7 @@ header nav ul li a:hover::after {
     border-radius: 12px;
 }
 
-.logo{
+.logo {
     display: flex;
     justify-content: space-between;
     gap: 5px;
@@ -302,14 +302,14 @@ header nav ul li a:hover::after {
 
 /* ________________ Canlendly section started_________________ */
 
-.section4{
+.section4 {
     background-color: #fff;
     width: 100%;
     padding: 20px;
 }
 
 
-.section4Card{
+.section4Card {
     width: 80%;
     margin: auto;
     background-color: #1F1637;
@@ -318,7 +318,7 @@ header nav ul li a:hover::after {
     padding: 40px;
 }
 
-.profileCircle{
+.profileCircle {
     margin-bottom: 0;
     border-radius: 50%;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmw3FLyuRz7zZc_QXeWH1EkKZ7LX6DZSb6Fw&s');
@@ -338,6 +338,21 @@ header nav ul li a:hover::after {
 
 
 /* ________________ Canlendly section Ended_________________ */
+
+/* ____________CAlendly button started__________ */
+.calendlyBtn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #00D9FF;
+    color: #111;
+}
+
+.calendlyBtn a {
+    text-decoration: none;
+    color: #1F1637;
+}
+
+/* ____________CAlendly button__________ */
 
 @media(max-width:768px) {
     .btn-wrap {
@@ -436,3 +451,4 @@ header nav ul li a:hover::after {
 }
 
 /* _____ Header close _______*/
+

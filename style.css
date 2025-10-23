@@ -475,6 +475,60 @@ header nav ul li a:hover::after {
     margin-bottom: 100px ;
 }
 
+/* ________________ Canlendly section started_________________ */
+
+.section4 {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+}
+
+
+.section4Card {
+    width: 80%;
+    margin: auto;
+    background-color: #1F1637;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.profileCircle {
+    margin-bottom: 0;
+    border-radius: 50%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmw3FLyuRz7zZc_QXeWH1EkKZ7LX6DZSb6Fw&s');
+    background-position: center;
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+    border: 1px solid #00D9FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* ________________ Canlendly section Ended_________________ */
+
+/* ____________CAlendly button started__________ */
+.calendlyBtn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #00D9FF;
+    color: #111;
+}
+
+.calendlyBtn a {
+    text-decoration: none;
+    color: #1F1637;
+}
+
+/* ____________CAlendly button__________ */
+
 /* --------------------------- Mobile Styles ---------------------------- */
 @media(max-width:768px) {
     .btn-wrap {

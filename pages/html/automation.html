@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ai Automation</title>
     <link rel="stylesheet" href="../css/automation.css">
+    <link rel="icon" type="image/svg+xml" href="../../assests/logo.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -12,92 +14,87 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
+
 <body>
     <section class="herosec" id="hero">
-        
 
-       <canvas class="particles-canvas" id="particles"></canvas>
+
+        <canvas class="particles-canvas" id="particles"></canvas>
         <div class="floating-element" style="top: 10%; left: 10%;"></div>
         <div class="floating-element" style="bottom: 10%; right: 10%;"></div>
-        
-    
+
+
         <section class="heroMainCont container-fluid pt-3  " id="home">
-            
 
-        <!----------------Header start --------------->
-        <header>
-            <div class="logo " data-aos="fade-right" data-aos-duration="1000">
-                <a href="#hero"><div class="dark-bg">
-                    <div class="logo">
-                        <div class="logo-mark">
-                            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M16 4 L26 9 L26 16 L16 16" 
-                                      stroke="#00D9FF" 
-                                      stroke-width="2" 
-                                      stroke-linecap="round"
-                                      stroke-linejoin="round"
-                                      fill="none"/>
-                                <path d="M16 28 L6 23 L6 9 L16 4" 
-                                      stroke="#00D9FF" 
-                                      stroke-width="2" 
-                                      stroke-linecap="round"
-                                      stroke-linejoin="round"
-                                      fill="none"/>
-                                <circle cx="16" cy="16" r="2" fill="#00D9FF"/>
-                                <circle cx="26" cy="16" r="1.5" fill="#00D9FF" opacity="0.6"/>
-                            </svg>
+
+            <!----------------Header start --------------->
+            <header>
+                <div class="logo " data-aos="fade-right" data-aos-duration="1000">
+                    <a href="#hero">
+                        <div class="dark-bg">
+                            <div class="logo">
+                                <div class="logo-mark">
+                                    <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 4 L26 9 L26 16 L16 16" stroke="#00D9FF" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                                        <path d="M16 28 L6 23 L6 9 L16 4" stroke="#00D9FF" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                                        <circle cx="16" cy="16" r="2" fill="#00D9FF" />
+                                        <circle cx="26" cy="16" r="1.5" fill="#00D9FF" opacity="0.6" />
+                                    </svg>
+                                </div>
+                                <div class="logo-text">GenAITech</div>
+                            </div>
                         </div>
-                        <div class="logo-text">GenAITech</div>
-                    </div>
-                </div></a>
-            </div>
+                    </a>
+                </div>
 
-            <nav id="navMenu">
-                <ul>
-                    <li><a href="../../index.html" data-aos="fade-down" data-aos-duration="1000" >Home</a></li>
-                    <li><a href="#about" data-aos="fade-down" data-aos-duration="1000" >About</a>
-                    </li>
-                    <li><a href="#totalservices" data-aos="fade-down" data-aos-duration="1000"
-                            data-aos-delay="300">Services</a></li>
-                    <li><a href="#contact" data-aos="fade-down" data-aos-duration="1000"
-                            data-aos-delay="400">Contact</a></li>
-                    <li><a href="#why" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">Choose
-                            Why?</a></li>
-                    <li class="mobile-btn" data-aos="fade-lest" data-aos-delay="700" data-aos-duration="1500">
-                        <button>Contact Us</button>
-                    </li>
-                </ul>
-            </nav>
+                <nav id="navMenu">
+                    <ul>
+                        <li><a href="../../index.html" data-aos="fade-down" data-aos-duration="1000">Home</a></li>
+                        <li><a href="#about" data-aos="fade-down" data-aos-duration="1000">About</a>
+                        </li>
+                        <li><a href="#totalservices" data-aos="fade-down" data-aos-duration="1000"
+                                data-aos-delay="300">Services</a></li>
+                        <li><a href="#contact" data-aos="fade-down" data-aos-duration="1000"
+                                data-aos-delay="400">Contact</a></li>
+                        <li><a href="#why" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">Choose
+                                Why?</a></li>
+                        <li class="mobile-btn" data-aos="fade-lest" data-aos-delay="700" data-aos-duration="1500">
+                            <button>Contact Us</button>
+                        </li>
+                    </ul>
+                </nav>
 
-            <div class="btn-wrap" data-aos="fade-left" data-aos-delay="700" data-aos-duration="1500">
-                <a href="#contact"><button>Contact Us</button></a>
-            </div>
+                <div class="btn-wrap" data-aos="fade-left" data-aos-delay="700" data-aos-duration="1500">
+                    <a href="#contact"><button>Contact Us</button></a>
+                </div>
 
-            <div class="hamburger" id="hamburger">☰</div>
-        </header>
-        <!---------------- Header end ------------------------>
+                <div class="hamburger" id="hamburger">☰</div>
+            </header>
+            <!---------------- Header end ------------------------>
 
             <div class="chat">
                 <i class="fa-solid fa-comments my-auto mt-3">
                     <script>
                         window.ChatWidgetConfig = {
-                            webhook : {
-                                url : 'Webhook Url',
-                                route : 'general'
+                            webhook: {
+                                url: 'Webhook Url',
+                                route: 'general'
                             },
-                            branding : {
-                                logo : '../../assests/logo.svg',
-                                name : 'GenAiTech',
-                                welcomeText : 'Get instent answers To your questions!',
-                                responseTimeText : 'Click the button to start Chatting!'
+                            branding: {
+                                logo: '../../assests/logo.svg',
+                                name: 'GenAiTech',
+                                welcomeText: 'Get instent answers To your questions!',
+                                responseTimeText: 'Click the button to start Chatting!'
                             },
-                            style : {
-                                primaryColor : '#00D9FF',
-                                secondaryColor : '#0C052E',
-                                position : 'right',
-                                backgroundColor : '#ffffff',
-                                fontColor : "#1f2987",
-                                height : '100px'
+                            style: {
+                                primaryColor: '#00D9FF',
+                                secondaryColor: '#0C052E',
+                                position: 'right',
+                                backgroundColor: '#ffffff',
+                                fontColor: "#1f2987",
+                                height: '100px'
                             }
                         }
                     </script>
@@ -105,7 +102,7 @@
                 </i>
             </div>
 
-        
+
 
 
             <!-- <canvas id="canvas"></canvas>
@@ -119,14 +116,17 @@
       src: "https://lottie.host/56833cc1-b40c-4116-85c4-7ab4a06717bc/zFrvGoxw8g.lottie", // or .json file
     });
   </script> -->
-             
+
 
             <div class="row pt-md-5">
                 <div class="col-md-8 pt-5 ps-5 pb-4">
-                    <h1 class="mainHeading" data-aos="fade-right" data-aos-delay="700" data-aos-duration="1500">Automation 
-                        <span class="text-light">Powered by Trusted AI Technology</span></h1>
+                    <h1 class="mainHeading" data-aos="fade-right" data-aos-delay="700" data-aos-duration="1500">
+                        Automation
+                        <span class="text-light">Powered by Trusted AI Technology</span>
+                    </h1>
                     <p class="heroPara text-light" data-aos="fade-right" data-aos-delay="900" data-aos-duration="1500">
-                        We combine pre-built modules with custom AI agents to build automation solutions that deliver real impact always focused on maximizing ROI..</p>
+                        We combine pre-built modules with custom AI agents to build automation solutions that deliver
+                        real impact always focused on maximizing ROI..</p>
                     <!-- <div class="heroBtn pt-3 pb-5" data-aos="zoom-in-right" data-aos-delay="1100" data-aos-duration="1500">
                         <a href="#contact"><button class="herokabutton">Book a Meeting</button></a>
                     </div> -->
@@ -150,22 +150,33 @@
 
     <section class="section2 p-5">
         <h1 class="text-center pt-5 pb-2  mx-auto">Seamless End-to-End AI Automation Tailored for Your Business</h1>
-        <h6 class="w-50 text-center mx-auto pb-5">Our AIConsole platform powers smart, tailored AI solutions that simplify your operations and integrate effortlessly. We keep ROI and performance at the core—so your AI delivers value where it matters most.</h6>
+        <h6 class="w-50 text-center mx-auto pb-5">Our AIConsole platform powers smart, tailored AI solutions that
+            simplify your operations and integrate effortlessly. We keep ROI and performance at the core—so your AI
+            delivers value where it matters most.</h6>
         <div class="container-fluid row g-2">
             <div class="col-md-4">
-                <div class="imgcont pb-4"><img src="https://cdn.sanity.io/images/s7xbv9bz/production/40285c02f5eb6bc116dae376fab6bd5c2b6b0690-1153x816.jpg?rect=0,1,1153,815&w=654&h=462&auto=format&fm=webp&q=100" width="379" height="236" alt=""></div>
+                <div class="imgcont pb-4"><img
+                        src="https://cdn.sanity.io/images/s7xbv9bz/production/40285c02f5eb6bc116dae376fab6bd5c2b6b0690-1153x816.jpg?rect=0,1,1153,815&w=654&h=462&auto=format&fm=webp&q=100"
+                        width="379" height="236" alt=""></div>
                 <h3 class="ps-3 pb-3">Discovery Workshop</h3>
-                <p class="ps-3">We help you explore AI’s potential by assessing your data and identifying key opportunities. You’ll get actionable recommendations to integrate AI and drive efficiency.</p>
+                <p class="ps-3">We help you explore AI’s potential by assessing your data and identifying key
+                    opportunities. You’ll get actionable recommendations to integrate AI and drive efficiency.</p>
             </div>
             <div class="col-md-4">
-                <div class="imgcont pb-4"><img src="https://cdn.sanity.io/images/s7xbv9bz/production/091720cb9a920cbec1e40f48add6b7bed8fb2bee-1153x816.png?rect=0,1,1153,815&w=654&h=462&auto=format&fm=webp&q=100" width="379" height="236" alt=""></div>
+                <div class="imgcont pb-4"><img
+                        src="https://cdn.sanity.io/images/s7xbv9bz/production/091720cb9a920cbec1e40f48add6b7bed8fb2bee-1153x816.png?rect=0,1,1153,815&w=654&h=462&auto=format&fm=webp&q=100"
+                        width="379" height="236" alt=""></div>
                 <h3 class="ps-3 pb-3">Proof of concept</h3>
-                <p class="ps-3">We create custom, interactive AI solutions for early validation, offering transparency throughout development and accelerating deployment while minimizing risks.</p>
+                <p class="ps-3">We create custom, interactive AI solutions for early validation, offering transparency
+                    throughout development and accelerating deployment while minimizing risks.</p>
             </div>
             <div class="col-md-4">
-                <div class="imgcont pb-4"><img src="https://cdn.sanity.io/images/s7xbv9bz/production/75fb44be5ee79a8c68ab9c2857507a8c0d6b0cf0-1153x816.jpg?rect=0,1,1153,815&w=654&h=462&auto=format&fm=webp&q=100" width="379" height="236" alt=""></div>
+                <div class="imgcont pb-4"><img
+                        src="https://cdn.sanity.io/images/s7xbv9bz/production/75fb44be5ee79a8c68ab9c2857507a8c0d6b0cf0-1153x816.jpg?rect=0,1,1153,815&w=654&h=462&auto=format&fm=webp&q=100"
+                        width="379" height="236" alt=""></div>
                 <h3 class="ps-3 pb-3">Continous Automation</h3>
-                <p class="ps-3">Think of us as your extended IT team—constantly refining your operations and boosting ROI to build long-term efficiency and growth.</p>
+                <p class="ps-3">Think of us as your extended IT team—constantly refining your operations and boosting
+                    ROI to build long-term efficiency and growth.</p>
 
             </div>
         </div>
@@ -177,22 +188,31 @@
 
     <section class="section3 p-5 d-grid ">
         <h1 class="text-center pt-5 pb-2  mx-auto">Streamline, Scale, and Innovate with AI</h1>
-        <h6 class="w-50 text-center mx-auto pb-5">Integrate intelligent AI solutions that maximize efficiency and empower sustainable growth.</h6>
+        <h6 class="w-50 text-center mx-auto pb-5">Integrate intelligent AI solutions that maximize efficiency and
+            empower sustainable growth.</h6>
         <div class="container-fluid row g-3">
             <div class="col-md-4 sec3Cards">
-                <div class="imgcontSec3 pb-4 text-center"><img src="https://cdn.sanity.io/images/s7xbv9bz/production/6a4c9591652aad7cb6984cae22fe9f144d3b91cd-140x140.svg"  alt=""></div>
+                <div class="imgcontSec3 pb-4 text-center"><img
+                        src="https://cdn.sanity.io/images/s7xbv9bz/production/6a4c9591652aad7cb6984cae22fe9f144d3b91cd-140x140.svg"
+                        alt=""></div>
                 <h3 class="px-2 pb-3 text-center">Enterprises and SMBs</h3>
-                <p class="px-2 text-center">Simplify workflows and scale automation to run operations smarter and faster</p>
+                <p class="px-2 text-center">Simplify workflows and scale automation to run operations smarter and faster
+                </p>
             </div>
             <div class="col-md-4 sec3Cards">
-                <div class="imgcontSec3 pb-4 text-center"><img src="https://cdn.sanity.io/images/s7xbv9bz/production/a6e66596d99dd76e0a4966e43688ddde5cd042cf-140x140.svg"  alt=""></div>
+                <div class="imgcontSec3 pb-4 text-center"><img
+                        src="https://cdn.sanity.io/images/s7xbv9bz/production/a6e66596d99dd76e0a4966e43688ddde5cd042cf-140x140.svg"
+                        alt=""></div>
                 <h3 class="px-2 pb-3 text-center">Startups</h3>
                 <p class="px-2 text-center">Achieve rapid growth with affordable AI tools built to spark innovation.</p>
             </div>
             <div class="col-md-4 sec3Cards">
-                <div class="imgcontSec3 pb-4 text-center"><img src="https://cdn.sanity.io/images/s7xbv9bz/production/98b06063a6b52d895094f8e49c6fb6ad2aa2c738-140x140.svg"  alt=""></div>
+                <div class="imgcontSec3 pb-4 text-center"><img
+                        src="https://cdn.sanity.io/images/s7xbv9bz/production/98b06063a6b52d895094f8e49c6fb6ad2aa2c738-140x140.svg"
+                        alt=""></div>
                 <h3 class="px-2 pb-3 text-center">Technology Teams</h3>
-                <p class="px-2 text-center">Automate tasks, cut repetitive work, and supercharge your team’s productivity.</p>
+                <p class="px-2 text-center">Automate tasks, cut repetitive work, and supercharge your team’s
+                    productivity.</p>
 
             </div>
         </div>
@@ -204,12 +224,21 @@
         <div class="section4Card">
             <div class="col-md-4 profile1 text-center mx-auto">
                 <div class="profileCircle text-center mx-auto">
-                    
+
                 </div>
                 <h3 class="text-light pt-4 text-center">WAQAR AZMAT</h3>
                 <p class="text-light text-center">HEAD OF GENAITECH</p>
             </div>
-            <div class="col-md-8"></div>
+            <div class="col-md-8 text-center d-flex flex-column ">
+                <h1 class="text-center text-light pt-3 pb-3">Ready to Automate with AI?</h1>
+                <h5 class="text-center text-light pt-3 pb-3">Let’s talk about the right package for your business—and
+                    explore how we can simplify your processes, boost efficiency, and drive continuous improvement.</p>
+
+                    <button class="calendlyBtn"><a target="_blank"
+                            href="https://calendly.com/alamusama557/30min?hide_event_type_details=1&hide_gdpr_banner=1">Schedule
+                            a Consultation</a></button>
+                    <!-- Calendly link widget end -->
+            </div>
         </div>
     </section>
 
@@ -232,6 +261,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
     integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
     crossorigin="anonymous"></script>
-    <script src="../../index.js"></script>
-    <script src="../JavaScript/automation.js"></script>
+<script src="../../index.js"></script>
+<script src="../JavaScript/automation.js"></script>
+
 </html>
