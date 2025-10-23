@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GenAiTech</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="./assests/logo.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -18,82 +19,78 @@
 
     <section class="herosec" id="hero">
         <section class="heroMainCont container-fluid pt-3 z-1 " id="home">
-            
 
-        <!----------------Header start --------------->
-        <header>
-            <div class="logodiv" data-aos="fade-right" data-aos-duration="1000">
-                <a href="#hero"><div class="dark-bg">
-                    <div class="logo">
-                        <div class="logo-mark">
-                            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M16 4 L26 9 L26 16 L16 16" 
-                                      stroke="#00D9FF" 
-                                      stroke-width="2" 
-                                      stroke-linecap="round"
-                                      stroke-linejoin="round"
-                                      fill="none"/>
-                                <path d="M16 28 L6 23 L6 9 L16 4" 
-                                      stroke="#00D9FF" 
-                                      stroke-width="2" 
-                                      stroke-linecap="round"
-                                      stroke-linejoin="round"
-                                      fill="none"/>
-                                <circle cx="16" cy="16" r="2" fill="#00D9FF"/>
-                                <circle cx="26" cy="16" r="1.5" fill="#00D9FF" opacity="0.6"/>
-                            </svg>
+
+            <!----------------Header start --------------->
+            <header>
+                <div class="logodiv" data-aos="fade-right" data-aos-duration="1000">
+                    <a href="#hero">
+                        <div class="dark-bg">
+                            <div class="logo">
+                                <div class="logo-mark">
+                                    <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 4 L26 9 L26 16 L16 16" stroke="#00D9FF" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                                        <path d="M16 28 L6 23 L6 9 L16 4" stroke="#00D9FF" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                                        <circle cx="16" cy="16" r="2" fill="#00D9FF" />
+                                        <circle cx="26" cy="16" r="1.5" fill="#00D9FF" opacity="0.6" />
+                                    </svg>
+                                </div>
+                                <div class="logo-text">GenAITech</div>
+                            </div>
                         </div>
-                        <div class="logo-text">GenAITech</div>
-                    </div>
-                </div></a>
-            </div>
+                    </a>
+                </div>
 
-            <nav id="navMenu">
-                <ul>
-                    <li><a href="#home" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">Home</a></li>
-                    <li><a href="#about" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">About</a>
-                    </li>
-                    <li><a href="./pages/html/automation.html" data-aos="fade-down" data-aos-duration="1000"
-                            data-aos-delay="300">Services</a></li>
-                    <li><a href="#contact" data-aos="fade-down" data-aos-duration="1000"
-                            data-aos-delay="400">Contact</a></li>
-                    <li><a href="#why" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">Choose
-                            Why?</a></li>
-                    <li class="mobile-btn" data-aos="fade-lest" data-aos-delay="700" data-aos-duration="1500">
-                        <button>Book a Meeting</button>
-                    </li>
-                </ul>
-            </nav>
+                <nav id="navMenu">
+                    <ul>
+                        <li><a href="#home" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">Home</a>
+                        </li>
+                        <li><a href="#about" data-aos="fade-down" data-aos-duration="1000"
+                                data-aos-delay="200">About</a>
+                        </li>
+                        <li><a href="./pages/html/automation.html" data-aos="fade-down" data-aos-duration="1000"
+                                data-aos-delay="300">Services</a></li>
+                        <li><a href="#contact" data-aos="fade-down" data-aos-duration="1000"
+                                data-aos-delay="400">Contact</a></li>
+                        <li><a href="#why" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">Choose
+                                Why?</a></li>
+                        <li class="mobile-btn" data-aos="fade-lest" data-aos-delay="700" data-aos-duration="1500">
+                            <button>Contact Us</button>
+                        </li>
+                    </ul>
+                </nav>
 
-            <div class="btn-wrap" data-aos="fade-left" data-aos-delay="700" data-aos-duration="1500">
-                <a href="#contact"><button>Book a Meeting</button></a>
-            </div>
+                <div class="btn-wrap" data-aos="fade-left" data-aos-delay="700" data-aos-duration="1500">
+                    <a href="#contact"><button>Contact Us</button></a>
+                </div>
 
-            <div class="hamburger" id="hamburger">☰</div>
-        </header>
-        <!---------------- Header end ------------------------>
+                <div class="hamburger" id="hamburger">☰</div>
+            </header>
+            <!---------------- Header end ------------------------>
 
             <div class="chat">
                 <i class="fa-solid fa-conts my-auto mt-3">
                     <script>
                         window.ChatWidgetConfig = {
-                            webhook : {
-                                url : 'Webhook Url',
-                                route : 'general'
+                            webhook: {
+                                url: 'Webhook Url',
+                                route: 'general'
                             },
-                            branding : {
-                                logo : 'https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:1200/https://cdn.gamma.app/5egk2ghu94byy3y/343ddf6f6bb240b5bc029f4035519f71/original/JdnYn-gyxyScPcMAHTl5r.jpg',
-                                name : 'GenAiTech',
-                                welcomeText : 'Get instent answers To your questions!',
-                                responseTimeText : 'Click the button below to start Chatting!'
+                            branding: {
+                                logo: 'https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:1200/https://cdn.gamma.app/5egk2ghu94byy3y/343ddf6f6bb240b5bc029f4035519f71/original/JdnYn-gyxyScPcMAHTl5r.jpg',
+                                name: 'GenAiTech',
+                                welcomeText: 'Get instent answers To your questions!',
+                                responseTimeText: 'Click the button below to start Chatting!'
                             },
-                            style : {
-                                primaryColor : '#00D9FF',
-                                secondaryColor : '#0C052E',
-                                position : 'right',
-                                backgroundColor : '#ffffff',
-                                fontColor : "#1f2987",
-                                height : '100px'
+                            style: {
+                                primaryColor: '#00D9FF',
+                                secondaryColor: '#0C052E',
+                                position: 'right',
+                                backgroundColor: '#ffffff',
+                                fontColor: "#1f2987",
+                                height: '100px'
                             }
                         }
                     </script>
@@ -101,37 +98,71 @@
                 </i>
             </div>
 
+            <div class="canvasCont">
+                <canvas id="canvas"></canvas>
+                <script type="module">
+                    import { DotLottie } from "https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web/+esm";
 
-            <canvas id="canvas"></canvas>
-  <script type="module">
-    import { DotLottie } from "https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web/+esm";
+                    new DotLottie({
+                        autoplay: true,
+                        loop: true,
+                        canvas: document.getElementById("canvas"),
+                        src: "https://lottie.host/56833cc1-b40c-4116-85c4-7ab4a06717bc/zFrvGoxw8g.lottie", // or .json file
+                    });
+                </script>
 
-    new DotLottie({
-      autoplay: true,
-      loop: true,
-      canvas: document.getElementById("canvas"),
-      src: "https://lottie.host/56833cc1-b40c-4116-85c4-7ab4a06717bc/zFrvGoxw8g.lottie", // or .json file
-    });
-  </script>
+                <div class="gradientOver"></div>
+            </div>
 
 
             <div class="row pt-md-5">
                 <div class="col-md-6 pt-5 ps-5 pb-4">
-                    <h1 class="mainHeading" data-aos="fade-right" data-aos-delay="700" data-aos-duration="1500">Boost
-                        <span class="text-light">AI That Powers Your Next Move</span></h1>
+                    <h1 class="mainHeading" data-aos="fade-right" data-aos-delay="700" data-aos-duration="1500">AI
+                        <span class="text-light">That Powers Your Next Move</span>
+                    </h1>
                     <p class="heroPara text-light" data-aos="fade-right" data-aos-delay="900" data-aos-duration="1500">
                         Turn complex challenges into smart solutions our AI technology helps
                         your business work faster and smarter.</p>
-                    <div class="heroBtn pt-3 pb-5" data-aos="zoom-in-right" data-aos-delay="1100" data-aos-duration="1500">
+                    <div class="heroBtn pt-3 pb-5" data-aos="zoom-in-right" data-aos-delay="1100"
+                        data-aos-duration="1500">
                         <a href="#contact"><button class="herokabutton">Book a Meeting</button></a>
                     </div>
                 </div>
                 <div class="col-md-6 p-md-5 modelcont" data-aos="fade-left" data-aos-delay="1500"
                     data-aos-duration="1500">
                     <ul class="text-end text-light d-flex flex-column justify-content-around mt-5 gap-4 sidelinks">
-                        <li ><a href="#" >Ai Automation</a></li>
-                        <li><a href="#">Machine Learning</a></li>
-                        <li><a href="#">Ai Chatbot</a></li>
+                        <li><a href="#" class="d-flex flex-row-reverse"> AI Chatbot
+                                    <div class="logo-mark">
+                                        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16 4 L26 9 L26 16 L16 16" stroke="#00D9FF" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                                            <path d="M16 28 L6 23 L6 9 L16 4" stroke="#00D9FF" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                                            <circle cx="16" cy="16" r="2" fill="#00D9FF" />
+                                            <circle cx="26" cy="16" r="1.5" fill="#00D9FF" opacity="0.6" />
+                                        </svg>
+                                    </div>
+                            </a></li>
+                        <li><a href="#" class="d-flex flex-row-reverse"> AI Automation <div class="logo-mark">
+                                        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16 4 L26 9 L26 16 L16 16" stroke="#00D9FF" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                                            <path d="M16 28 L6 23 L6 9 L16 4" stroke="#00D9FF" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                                            <circle cx="16" cy="16" r="2" fill="#00D9FF" />
+                                            <circle cx="26" cy="16" r="1.5" fill="#00D9FF" opacity="0.6" />
+                                        </svg>
+                                    </div></a></li>
+                        <li><a href="#" class="d-flex  flex-row-reverse">  Machine Learning <div class="logo-mark">
+                                        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16 4 L26 9 L26 16 L16 16" stroke="#00D9FF" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                                            <path d="M16 28 L6 23 L6 9 L16 4" stroke="#00D9FF" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                                            <circle cx="16" cy="16" r="2" fill="#00D9FF" />
+                                            <circle cx="26" cy="16" r="1.5" fill="#00D9FF" opacity="0.6" />
+                                        </svg>
+                                    </div></a></li>
                     </ul>
                 </div>
             </div>
@@ -146,8 +177,8 @@
     </section>
 
     <div class="totalservices" id="totalservices">
-   
-         <!-- background attachment section  -->
+
+        <!-- background attachment section  -->
 
 
         <div class="attachImg">
@@ -234,7 +265,7 @@
 
         <!-- improved section ended  -->
 
-        
+
 
         <!-- what we do section started -->
 
@@ -301,7 +332,7 @@
     <!-- choose section started -->
 
 
-    <div class="choose p-5" id="why">
+    <!-- <div class="choose p-5" id="why">
         <div class="container pb-5">
             <h2 class="text-light p-5 why">Why Choose Us?</h2>
             <div class="row g-5 pb-2">
@@ -346,7 +377,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <!-- choose section ended -->
