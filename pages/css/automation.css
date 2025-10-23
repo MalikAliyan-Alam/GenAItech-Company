@@ -359,6 +359,10 @@ header nav ul li a:hover::after {
         display: none;
     }
 
+    body{
+        overflow-x: hidden;
+    }
+
     header {
         padding: 20px 20px;
 
@@ -366,6 +370,18 @@ header nav ul li a:hover::after {
 
     .mainHeading {
         font-size: 35px;
+    }
+
+    .section4{
+        padding: 0;
+    }
+
+    .section4Card{
+        flex-direction: column;
+    }
+
+    .section4Card div p{
+        font-weight: 300;
     }
 
     @media (max-width:768px) {
