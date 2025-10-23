@@ -352,7 +352,29 @@ header nav ul li a:hover::after {
     color: #1F1637;
 }
 
-/* ____________CAlendly button__________ */
+/* ____________Calendly button Ended__________ */
+
+/* ______________Dark section started______________ */
+
+.section5{
+    background-color: #100727;
+    padding: 20px;
+}
+
+.sec5Cards{
+    background-color: #1D0C42;
+}
+
+.section5CardCont{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+
+
+
+/* ______________Dark section Ended______________ */
 
 @media(max-width:768px) {
     .btn-wrap {
@@ -382,6 +404,11 @@ header nav ul li a:hover::after {
 
     .section4Card div p{
         font-weight: 300;
+    }
+
+    .section5CardCont{
+        grid-template-columns: repeat(1,1fr);
+        /* gap: 20px; */
     }
 
     @media (max-width:768px) {
