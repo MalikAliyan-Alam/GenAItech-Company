@@ -549,6 +549,7 @@ header nav ul li a:hover::after {
     cursor: pointer;
     font-weight: 400;
     transition: all 0.3s ease;
+    color: white;
 }
 
 .calendlyBtn:hover{
