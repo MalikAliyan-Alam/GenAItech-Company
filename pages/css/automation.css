@@ -341,15 +341,29 @@ header nav ul li a:hover::after {
 
 /* ____________CAlendly button started__________ */
 .calendlyBtn {
-    margin-top: 20px;
     padding: 10px 15px;
-    background-color: #00D9FF;
-    color: #111;
+    background: transparent;
+    border: 3px solid #00D9FF;
+    cursor: pointer;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+.calendlyBtn:hover{
+    background: #00D9FF;
+    border-color: #00D9FF;
+    color: #181332;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(59, 147, 248, 0.4);
 }
 
 .calendlyBtn a {
     text-decoration: none;
-    color: #1F1637;
+    color: white;
+}
+
+.calendlyBtn a:hover{
+    color: #100727;
 }
 
 /* ____________Calendly button Ended__________ */

@@ -215,9 +215,7 @@ header nav ul li a:hover::after {
 
 .sidelinks li a{
     text-decoration: none;
-    color: #04A7C4;
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .sidelinks li{
@@ -288,7 +286,7 @@ header nav ul li a:hover::after {
     width: 100%;
     z-index: -1;
     padding-bottom: 40px;
-    background-color: #02273a;
+    /* background-color: #02273a; */
 }
 .spaceCont{
     width: 100%;
@@ -299,17 +297,20 @@ header nav ul li a:hover::after {
     width: 90%;
     /* height: 70vh; */
     padding-bottom: 30px;
-    background: rgba(2, 2, 2, 0.253); 
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
-    backdrop-filter: blur(5px); /* Blurs the content behind the element */
-    -webkit-backdrop-filter: blur(5px); /* Vendor prefix for older browsers */
-    border: 1px solid rgba(255, 255, 255, 0.3); 
+    gap: 20px;
+    /* background: rgba(2, 2, 2, 0.253); 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4); 
+    backdrop-filter: blur(5px); 
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);  */
 }
 
 .attachContent h1{
     margin-left: 2%;
     font-size: 45px;
-    color: white;
+    color: black;
+    text-align: center;
+    padding-bottom: 40px;
 }
 
 .attachContent h1 span{
@@ -329,9 +330,26 @@ header nav ul li a:hover::after {
     margin-left: 30px;
 }
 
+.attachcards{
+    background-color: #fff;
+    box-shadow: rgba(71, 90, 158, 0.1) 0px 8px 24px;
+    padding: 20px 0;
+}
+
+.cardscont{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 10px; */
+}
+
+.attachcards:hover{
+    transform: scale(1.050);
+    transition: all 0.3s;
+}
+
 .attachcards h3,
 .attachcards p{
-    color: white;
+    color: black;
     padding-top: 10px;
     padding-left: 30px;
 }
@@ -415,18 +433,22 @@ header nav ul li a:hover::after {
 }
 
 .chatbotsec{
-    background-color: #181332;
+    background-color: white;
     width: 100%;
+    margin-top: 20px;
     /* margin: auto; */
 }
 
 .chatbotcont{
-    background-color: #181332;
     width: 100%;
+    background-image: url('https://10clouds.com/static/wave-light-1.f03875af.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .chatbotcont h1{
-    color: white;
+    color: black;
+    text-align: center;
 }
 
 .chatbotcont h1 span{
@@ -435,7 +457,7 @@ header nav ul li a:hover::after {
 }
 
 .chatbotcont1 i{
-    color: white ;
+    color: black ;
     font-size: 65px;
 }
 
@@ -444,7 +466,12 @@ header nav ul li a:hover::after {
 }
 
 .chatbotcont1 p{
-    color: white;
+    color: black;
+}
+
+.chatbotcardscont{
+    display: flex;
+    margin-top: 30px;
 }
 
 .improvedsec{
@@ -516,15 +543,29 @@ header nav ul li a:hover::after {
 
 /* ____________CAlendly button started__________ */
 .calendlyBtn {
-    margin-top: 20px;
     padding: 10px 15px;
-    background-color: #00D9FF;
-    color: #111;
+    background: transparent;
+    border: 3px solid #00D9FF;
+    cursor: pointer;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+.calendlyBtn:hover{
+    background: #00D9FF;
+    border-color: #00D9FF;
+    color: #181332;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(59, 147, 248, 0.4);
 }
 
 .calendlyBtn a {
     text-decoration: none;
-    color: #1F1637;
+    color: white;
+}
+
+.calendlyBtn a:hover{
+    color: #100727;
 }
 
 /* ____________CAlendly button__________ */
