@@ -380,6 +380,20 @@ header nav ul li a:hover::after {
     background-color: #1D0C42;
 }
 
+.sec5Cards:hover{
+    background-color: #44159C;
+    transform: scale(1.040);
+    transition: all 0.2s ease-in;
+}
+
+.sec5Para1 , .sec5Para2
+.sec5Para3, .sec5Para4
+.sec5Para5 , .sec5Para6
+.sec5Para7 , .sec5Para8 {
+    opacity: 0;
+    font-size: 14px;
+}
+
 .section5CardCont{
     display: grid;
     grid-template-columns: repeat(4,1fr);
