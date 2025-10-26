@@ -386,12 +386,29 @@ header nav ul li a:hover::after {
     transition: all 0.2s ease-in;
 }
 
-.sec5Para1 , .sec5Para2
-.sec5Para3, .sec5Para4
-.sec5Para5 , .sec5Para6
-.sec5Para7 , .sec5Para8 {
+#sec5Para1{
     opacity: 0;
-    font-size: 14px;
+}
+#sec5Para2{
+    opacity: 0;
+}
+#sec5Para3{
+    opacity: 0;
+}
+#sec5Para4{
+    opacity: 0;
+}
+#sec5Para5{
+    opacity: 0;
+}
+#sec5Para6{
+    opacity: 0;
+}
+#sec5Para7{
+    opacity: 0;
+}
+#sec5Para8{
+    opacity: 0;
 }
 
 .section5CardCont{

@@ -175,9 +175,9 @@ function show1(){
    
 }
 function dont1(){
-    var para1 = document.getElementById('sec5Para1');
-   para1.style.marginTop = '0px';
-   para1.style.opacity = 0;
+    var para2 = document.getElementById('sec5Para1');
+   para2.style.marginTop = '0px';
+   para2.style.opacity = 0;
 }
 function show2(){
    var Para1 = document.getElementById('sec5Para2');
