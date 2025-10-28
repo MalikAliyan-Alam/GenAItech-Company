@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Space Grotesk" , sans-serif;
-
 }
 
 body {
@@ -286,6 +285,7 @@ header nav ul li a:hover::after {
     width: 100%;
     z-index: -1;
     padding-bottom: 40px;
+    background-color: #fff;
     /* background-color: #02273a; */
 }
 .spaceCont{
@@ -298,6 +298,7 @@ header nav ul li a:hover::after {
     /* height: 70vh; */
     padding-bottom: 30px;
     gap: 20px;
+    background-color: #fff;
     /* background: rgba(2, 2, 2, 0.253); 
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4); 
     backdrop-filter: blur(5px); 
@@ -581,6 +582,18 @@ header nav ul li a:hover::after {
         padding: 20px 20px;
 
     }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .attachcards{
+        padding: 5px;
+    }
+
+    .chatbotcont h1{
+        width: 100% !important;
+  }
 
     @media (max-width:768px) {
         .btn-wrap {

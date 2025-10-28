@@ -383,7 +383,7 @@ header nav ul li a:hover::after {
 .sec5Cards:hover{
     background-color: #44159C;
     transform: scale(1.040);
-    transition: all 0.2s ease-in;
+    transition: all 0.4s ease-in;
 }
 
 #sec5Para1{
