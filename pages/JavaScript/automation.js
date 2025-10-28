@@ -176,7 +176,7 @@ function show1(){
 }
 function dont1(){
     var para2 = document.getElementById('sec5Para1');
-   para2.style.marginTop = '0px';
+
    para2.style.opacity = 0;
 }
 function show2(){
@@ -186,7 +186,6 @@ function show2(){
 }
 function dont2(){
     var para1 = document.getElementById('sec5Para2');
-   para1.style.marginTop = '0px';
    para1.style.opacity = 0;
 }
 function show3(){
@@ -196,7 +195,6 @@ function show3(){
 }
 function dont3(){
     var para1 = document.getElementById('sec5Para3');
-   para1.style.marginTop = '0px';
    para1.style.opacity = 0;
 }
 function show4(){
@@ -206,7 +204,6 @@ function show4(){
 }
 function dont4(){
     var para1 = document.getElementById('sec5Para4');
-   para1.style.marginTop = '0px';
    para1.style.opacity = 0;
 }
 function show5(){
@@ -216,7 +213,6 @@ function show5(){
 }
 function dont5(){
     var para1 = document.getElementById('sec5Para5');
-   para1.style.marginTop = '0px';
    para1.style.opacity = 0;
 }
 function show6(){
@@ -226,7 +222,6 @@ function show6(){
 }
 function dont6(){
     var para1 = document.getElementById('sec5Para6');
-   para1.style.marginTop = '0px';
    para1.style.opacity = 0;
 }
 function show7(){
@@ -236,7 +231,6 @@ function show7(){
 }
 function dont7(){
     var para1 = document.getElementById('sec5Para7');
-   para1.style.marginTop = '0px';
    para1.style.opacity = 0;
 }
 function show8(){
@@ -246,6 +240,5 @@ function show8(){
 }
 function dont8(){
     var para1 = document.getElementById('sec5Para8');
-   para1.style.marginTop = '0px';
    para1.style.opacity = 0;
 }
