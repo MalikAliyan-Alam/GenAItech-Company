@@ -7,6 +7,93 @@ hamburger.addEventListener('click', () => {
   hamburger.textContent = navMenu.classList.contains('show') ? '✖' : '☰';
 });
 
+
+// dark section hover effect started
+// hover effect 
+
+function show1(){
+   var Para1 = document.getElementById('sec5Para1');
+   Para1.style.opacity = 1;
+   
+}
+function dont1(){
+    var para2 = document.getElementById('sec5Para1');
+   para2.style.marginTop = '0px';
+   para2.style.opacity = 0;
+}
+function show2(){
+   var Para1 = document.getElementById('sec5Para2');
+   Para1.style.opacity = 1;
+   
+}
+function dont2(){
+    var para1 = document.getElementById('sec5Para2');
+   para1.style.marginTop = '0px';
+   para1.style.opacity = 0;
+}
+function show3(){
+   var Para1 = document.getElementById('sec5Para3');
+   Para1.style.opacity = 1;
+   
+}
+function dont3(){
+    var para1 = document.getElementById('sec5Para3');
+   para1.style.marginTop = '0px';
+   para1.style.opacity = 0;
+}
+function show4(){
+   var Para1 = document.getElementById('sec5Para4');
+   Para1.style.opacity = 1;
+   
+}
+function dont4(){
+    var para1 = document.getElementById('sec5Para4');
+   para1.style.marginTop = '0px';
+   para1.style.opacity = 0;
+}
+function show5(){
+   var Para1 = document.getElementById('sec5Para5');
+   Para1.style.opacity = 1;
+   
+}
+function dont5(){
+    var para1 = document.getElementById('sec5Para5');
+   para1.style.marginTop = '0px';
+   para1.style.opacity = 0;
+}
+function show6(){
+   var Para1 = document.getElementById('sec5Para6');
+   Para1.style.opacity = 1;
+   
+}
+function dont6(){
+    var para1 = document.getElementById('sec5Para6');
+   para1.style.marginTop = '0px';
+   para1.style.opacity = 0;
+}
+function show7(){
+   var Para1 = document.getElementById('sec5Para7');
+   Para1.style.opacity = 1;
+   
+}
+function dont7(){
+    var para1 = document.getElementById('sec5Para7');
+   para1.style.marginTop = '0px';
+   para1.style.opacity = 0;
+}
+function show8(){
+   var Para1 = document.getElementById('sec5Para8');
+   Para1.style.opacity = 1;
+   
+}
+function dont8(){
+    var para1 = document.getElementById('sec5Para8');
+   para1.style.marginTop = '0px';
+   para1.style.opacity = 0;
+}
+
+// dark section hover effect ended
+
   // chatbot system started
 
   // Interactive Chat Widget for n8n
