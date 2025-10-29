@@ -446,6 +446,7 @@ header nav ul li a:hover::after {
     background-image: url('https://10clouds.com/static/wave-light-1.f03875af.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 7%;
 }
 
 .chatbotcont h1{
@@ -514,12 +515,14 @@ header nav ul li a:hover::after {
 
 
 .section4Card {
-    width: 80%;
+    width: 90%;
     margin: auto;
     background-color: #1F1637;
     display: flex;
     justify-content: space-around;
     padding: 40px;
+    top: -20%;
+
 }
 
 .profileCircle {
@@ -544,6 +547,11 @@ header nav ul li a:hover::after {
 /* ________________ Canlendly section Ended_________________ */
 
 /* ____________CAlendly button started__________ */
+
+.calendly{
+    top: -15%;
+}
+
 .calendlyBtn {
     padding: 10px 15px;
     background: transparent;
