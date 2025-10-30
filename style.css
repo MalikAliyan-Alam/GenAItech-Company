@@ -13,7 +13,7 @@ body {
     scroll-behavior: smooth;
 }
 
-canvas {
+canvaslottie {
     position: absolute;
     display: block;
     width: 100%;
