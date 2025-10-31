@@ -421,11 +421,66 @@ header nav ul li a:hover::after {
     transition: all 0.5s ease;
 }
 
+.heropopup{
+    background-color: #fff;
+    width: 80%;
+    position: absolute;
+    top: -20%;
+    margin-left: 25%;
+    box-shadow: 0px 2px 40px #000;
+}
+
+.popupimgcont1{
+    width: 195px;
+    height: 120px;
+    background-image: url('./assests/docker-removebg-preview.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.popupimgcont2{
+    width: 295px;
+    height: 220px;
+    background-image: url('./assests/n8n-removebg-preview.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.popupimgcont3{
+    width: 205px;
+    height: 120px;
+    background-image: url('./assests/openai-removebg-preview.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.popupimgcont4{
+    width: 175px;
+    height: 120px;
+    background-image: url('./assests/react-removebg-preview.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.popupimgcont5{
+    width: 285px;
+    height: 120px;
+    background-image: url('./assests/tensorflow-removebg-preview.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.popupimg{
+    object-fit: cover;
+}
+
 .attachImg{
     width: 100%;
     z-index: -1;
     padding-bottom: 40px;
     background-color: #fff;
+    position: relative;
     /* background-color: #02273a; */
 }
 .spaceCont{
