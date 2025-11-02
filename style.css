@@ -964,6 +964,17 @@ footer{
     color: rgb(154, 153, 178);
 }
 
+.footerinfo h5{
+    padding: 0px 80px;
+}
+
+.footgridcont{
+    border-bottom: 2px solid rgb(154, 153, 178);
+}
+
+.footaddress p{
+    padding: 0px 80px;
+}
 
 
 /*_______________ footer ended_________________ */
