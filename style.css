@@ -762,11 +762,22 @@ header nav ul li a:hover::after {
     top: -15%;
 }
 
+.headname{
+    font-size: 24px;
+}
+
+.headpost{
+    font-size: 14px;
+}
+
+
+
 .calendlyBtn {
-    padding: 10px 15px;
+    padding: 15px 20px;
     background: transparent;
     border: 3px solid #00D9FF;
     cursor: pointer;
+    font-size: 16px;
     font-weight: 400;
     transition: all 0.3s ease;
     color: white;
@@ -973,7 +984,7 @@ footer{
 }
 
 .footaddress p{
-    padding: 0px 80px;
+    padding: 0px 40px;
 }
 
 

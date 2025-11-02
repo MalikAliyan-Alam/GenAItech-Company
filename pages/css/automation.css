@@ -345,6 +345,17 @@ header nav ul li a:hover::after {
 /* ________________ Canlendly section Ended_________________ */
 
 /* ____________CAlendly button started__________ */
+
+
+.headname{
+    font-size: 24px;
+}
+
+.headpost{
+    font-size: 14px;
+}
+
+
 .calendlyBtn {
     padding: 10px 15px;
     background: transparent;
@@ -385,6 +396,19 @@ header nav ul li a:hover::after {
     margin-top: 40px;
 }
 
+.cardsHeading::before{
+    content: "";
+    display: block;
+    margin-bottom: 2.5rem;
+    width: 50px;
+    height: 5px;
+    background: #00D9FF;
+}
+
+.cardhigh{
+    font-size: 18px;
+}
+
 .sec5Cards{
     background-color: #1D0C42;
 }
@@ -397,27 +421,35 @@ header nav ul li a:hover::after {
 
 #sec5Para1{
     opacity: 0;
+    font-size: 14px;
 }
 #sec5Para2{
     opacity: 0;
+    font-size: 14px;
 }
 #sec5Para3{
     opacity: 0;
+    font-size: 14px;
 }
 #sec5Para4{
+     font-size: 14px;
     opacity: 0;
 }
 #sec5Para5{
     opacity: 0;
+        font-size: 14px;
 }
 #sec5Para6{
     opacity: 0;
+        font-size: 14px;
 }
 #sec5Para7{
     opacity: 0;
+        font-size: 14px;
 }
 #sec5Para8{
     opacity: 0;
+        font-size: 14px;
 }
 
 .section5CardCont{
@@ -430,6 +462,115 @@ header nav ul li a:hover::after {
 
 
 /* ______________Dark section Ended______________ */
+
+/*_______________ footer started_________________ */
+
+footer{
+    background-color: #070414;
+}
+
+.footerlogo{
+    padding: 80px;
+}
+
+.LinkedinBtn {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #00D9FF;
+  position: relative;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin: 80px;
+}
+
+.LinkedinBtn .svgContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+  letter-spacing: 1px; /* Adjusted letter spacing */
+  border-radius: 10px;
+  transition: all 0.3s;
+  border: 1px solid rgba(0, 200, 255, 0.466);
+}
+
+.LinkedinBtn .BG {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #0077b5;
+  z-index: -1;
+  border-radius: 9px;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+.LinkedinBtn:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Added box shadow effect */
+}
+
+.LinkedinBtn:hover .BG {
+  transform: rotate(35deg);
+  transform-origin: bottom;
+}
+
+.LinkedinBtn:hover .svgContainer {
+  background-color: rgba(156, 156, 156, 0.466);
+}
+
+.address{
+    padding: 0px 80px;
+    color: #3A3848;
+    line-height: 0.5;
+}
+
+.footerHeading::before{
+    content: "";
+    display: block;
+    margin-bottom: 2.5rem;
+    width: 50px;
+    height: 5px;
+    background: #00D9FF;
+}
+
+.footeraddpara{
+    color: rgb(154, 153, 178);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.footerinfo{
+    padding: 30px 0px;
+    line-height: 1.5;
+}
+
+.footerinfo p{
+    color: rgb(154, 153, 178);
+}
+
+.footerinfo h5{
+    padding: 0px 80px;
+}
+
+.footgridcont{
+    border-bottom: 2px solid rgb(154, 153, 178);
+}
+
+.footaddress p{
+    padding: 0px 40px;
+}
+
+
+/*_______________ footer ended_________________ */
 
 @media(max-width:768px) {
     .btn-wrap {
