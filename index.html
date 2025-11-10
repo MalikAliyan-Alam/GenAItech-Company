@@ -55,7 +55,7 @@
                                     <div class="item">
                                         <a href="#" class="link text-light">
                                             <span class="text-light" data-aos="fade-right" data-aos-duration="1000"
-                                                data-aos-delay="300"> Our Services </span>
+                                                data-aos-delay="300" onmouseover="dropdown()" onmouseout="dropOut()" id="dropParent"> Our Services </span>
                                             <svg data-aos="fade-down" data-aos-duration="1000" data-aos-delay="00"
                                                 class="text-light" viewBox="0 0 360 360" xml:space="preserve">
                                                 <g id="SVGRepo_iconCarrier">
@@ -65,15 +65,15 @@
                                                 </g>
                                             </svg>
                                         </a>
-                                        <div class="submenu">
-                                            <div class="submenu-item">
+                                        <div class="submenu " >
+                                            <div class="submenu-item" onmouseover="dropdown()" onmouseout="dropOut()">
                                                 <a href="./pages/html/automation.html" class="submenu-link"> AI Automation </a>
                                             </div>
-                                            <div class="submenu-item">
-                                                <a href="./pages/html/MachineLearning.html" class="submenu-link"> Machine Learning </a>
-                                            </div>
-                                            <div class="submenu-item">
+                                            <div class="submenu-item" onmouseover="dropdown()" onmouseout="dropOut()">
                                                 <a href="#" class="submenu-link"> Chatbot Development</a>
+                                            </div>
+                                            <div class="submenu-item" onmouseover="dropdown()" onmouseout="dropOut()">
+                                                <a href="./pages/html/MachineLearning.html" class="submenu-link"> Machine Learning </a>
                                             </div>
                                         </div>
                                     </div>
@@ -236,7 +236,7 @@
         <!-- <section class="improvedsec bg-light"> -->
         <!-- <div class="improveimg"></div> -->
         <div class="chatbotcont chatbotcontone  forimage row p-5 container mx-auto text-center">
-            <h1 class="">Process Automation: for Optimizing Business <br> Efficiency</h1> <br>
+            <h1 class="contenth1">Process Automation: for Optimizing Business <br> Efficiency</h1> <br>
             <div class="col-md-4 chatbotcont1 p-5">
                 <i class="fa-solid fa-bug "></i><br>
                 <h2 class="py-3">Reduced Errors Effectively<br></h2>
@@ -263,9 +263,9 @@
         <section class="chatbotsec ">
             <!-- <div class="chatbotimg"></div> -->
             <div class="chatbotcont chatbotconttwo row p-2 p-md-5 container mx-auto text-center">
-                <h1 class="w-75 text-center mx-md-auto pb-3 pb-md-1">Intelligent Chatbot Development:
+                <h1 class="w-75 text-center mx-md-auto pb-3 pb-md-1 chatboth1">Intelligent Chatbot Development:
                     Enhancing Customer Experience</h1> <br>
-                <div class="chatbotcardscont row">
+                <div class="chatbotcardscont row d-flex "> 
                     <div class="col-md-4 chatbotcont1 p-1 p-md-5">
                         <i class="fa-solid fa-comment-sms"></i><br>
                         <h2 class="py-3 ">24/7 Availability <br> Non-Stop</h2>
@@ -569,8 +569,8 @@
             </div>
             <div class="address pb-5">
 
-                <p class="footeraddpara footerHeading">GenAITech</p>
-                <p class="footeraddpara">Business : +32465735299</p>
+                <p class="footeraddpara footerHeading text-light">GenAITech</p>
+                <p class="footeraddpara text-light">Business : +32465735299</p>
             </div>
 
             

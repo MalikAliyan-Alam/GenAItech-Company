@@ -8,6 +8,25 @@ hamburger.addEventListener('click', () => {
 });
 
 
+
+// navbar dropdown started 
+
+function dropdown(){
+    var dropParent = document.getElementById('dropParent');
+    dropParent.style.paddingLeft = '35px';
+    dropParent.style.paddingRight = '35px';
+    dropParent.style.transition = '0.5s ease'
+}
+function dropOut(){
+    var dropParent = document.getElementById('dropParent');
+    dropParent.style.paddingLeft = '0px'
+    dropParent.style.paddingRight = '0px'
+    dropParent
+
+}
+
+// navbar dropdown ended
+
 // dark section hover effect started
 // hover effect 
 
@@ -1083,3 +1102,4 @@ function dont8(){
 
 
 // chat bot system completed
+

@@ -37,6 +37,7 @@ body {
     position: absolute;
     top: 0;
     bottom: 0;
+    left: -15px;
     width: 100%;
     height: 100%;
     background: linear-gradient(
@@ -108,7 +109,7 @@ body {
 
 .menu a {
   text-decoration: none;
-  color: inherit;
+  color: white;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -120,7 +121,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 12px;
-  padding: 0px 35px;
+  /* padding: 0px 35px; */
   /* border-radius: 16px; */
   overflow: hidden;
   transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
@@ -150,6 +151,10 @@ body {
   height: 14px;
   fill: #00D9FF;
   transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.menu .link svg:hover{
+    fill: #00D9FF;
 }
 
 .menu .item {
@@ -510,8 +515,9 @@ header nav ul li a:hover::after {
     gap: 20px;
     background-color: #fff;
     box-shadow: 0px 1px 30px #847e7e;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
     padding-bottom: 5%;
+    margin-top: 5%;
     /* background: rgba(2, 2, 2, 0.253); 
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4); 
     backdrop-filter: blur(5px); 
@@ -547,7 +553,7 @@ header nav ul li a:hover::after {
 
 .attachcards{
     background-color: #fff;
-    box-shadow: rgba(101, 101, 103, 0.26) 0px 8px 24px;
+    /* box-shadow: rgba(101, 101, 103, 0.26) 0px 8px 24px; */
     padding: 20px 0;
 }
 
@@ -651,7 +657,8 @@ header nav ul li a:hover::after {
 .chatbotsec{
     background-color: white;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 6%;
+    margin-bottom: 16%;
     /* margin: auto; */
 }
 
@@ -682,6 +689,25 @@ header nav ul li a:hover::after {
 .chatbotcont1 i{
     color: black ;
     font-size: 65px;
+}
+
+.chatbotcont1{
+    /* box-shadow: 0px 8px 24px rgba(101, 101, 103, 0.26); */
+    background-color: #fff;
+    margin: 3% 0px;
+}
+/* 
+.chatbotcont1:hover{
+    transform: scale(1.035);
+    transition: all 0.5s;
+} */
+
+.contenth1{
+    padding-bottom: 5%;
+}
+
+.chatboth1{
+    margin-bottom: 5%;
 }
 
 .chatbotcont1 h2{
