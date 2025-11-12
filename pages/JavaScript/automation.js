@@ -242,3 +242,18 @@ function dont8(){
     var para1 = document.getElementById('sec5Para8');
    para1.style.opacity = 0;
 }
+
+
+function dropdown(){
+    var dropParent = document.getElementById('dropParent');
+    dropParent.style.paddingLeft = '35px';
+    dropParent.style.paddingRight = '35px';
+    dropParent.style.transition = '0.5s ease'
+}
+function dropOut(){
+    var dropParent = document.getElementById('dropParent');
+    dropParent.style.paddingLeft = '0px'
+    dropParent.style.paddingRight = '0px'
+    dropParent
+
+}
