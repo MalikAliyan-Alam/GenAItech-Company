@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
@@ -55,7 +56,7 @@
                                     <div class="item">
                                         <a href="#" class="link text-light">
                                             <span class="text-light" data-aos="fade-right" data-aos-duration="1000"
-                                                data-aos-delay="300"  id="dropParent"> Our Services </span>
+                                                data-aos-delay="300" id="dropParent"> Our Services </span>
                                             <svg data-aos="fade-down" data-aos-duration="1000" data-aos-delay="00"
                                                 class="text-light" viewBox="0 0 360 360" xml:space="preserve">
                                                 <g id="SVGRepo_iconCarrier">
@@ -65,15 +66,17 @@
                                                 </g>
                                             </svg>
                                         </a>
-                                        <div class="submenu " >
+                                        <div class="submenu ">
                                             <div class="submenu-item" onmouseover="dropdown()" onmouseout="dropOut()">
-                                                <a href="./pages/html/automation.html" class="submenu-link"> AI Automation </a>
+                                                <a href="./pages/html/automation.html" class="submenu-link"> AI
+                                                    Automation </a>
                                             </div>
                                             <div class="submenu-item" onmouseover="dropdown()" onmouseout="dropOut()">
                                                 <a href="#" class="submenu-link"> Chatbot Development</a>
                                             </div>
                                             <div class="submenu-item" onmouseover="dropdown()" onmouseout="dropOut()">
-                                                <a href="./pages/html/MachineLearning.html" class="submenu-link"> Machine Learning </a>
+                                                <a href="./pages/html/MachineLearning.html" class="submenu-link">
+                                                    Machine Learning </a>
                                             </div>
                                         </div>
                                     </div>
@@ -101,7 +104,7 @@
                     <script>
                         window.ChatWidgetConfig = {
                             webhook: {
-                                url: 'Webhook Url',
+                                url: 'http://localhost:5678/webhook/abe8058f-fd69-4173-8f51-27a924cfe1c0/chat',
                                 route: 'general'
                             },
                             branding: {
@@ -174,7 +177,7 @@
     <!-- Hero Section Completed -->
 
 
-    <div class="totalservices" id="totalservices">
+    <!-- <div class="totalservices" id="totalservices"> -->
 
         <!-- background attachment section  -->
 
@@ -207,33 +210,35 @@
 
 
             <div class="spaceCont pt-5 mt-5"></div>
-            <div class="attachContent mx-auto mt-5 pt-5 container" id="attachedCont">
-                <h1 class="mt-5">Advanced Machine Learning <br> Unlocking Insights</h1>
-                <div class="cardscont mx-auto row pt-4 ">
-                    <div class="attachcards col-md-4 text-center">
-                        <div class="attachi mgcont1">
-                            <img src="./assests/sentiment-analysis.png" width="88" height="78" class="mb-2" alt="">
+            <a href="./pages/html/MachineLearning.html" class="text-decoration-none">
+                <div class="attachContent mx-auto mt-5 pt-5 container" id="attachedCont">
+                    <h1 class="mt-5">Advanced Machine Learning <br> Unlocking Insights</h1>
+                    <div class="cardscont mx-auto row pt-4 ">
+                        <div class="attachcards col-md-4 text-center">
+                            <div class="attachi mgcont1">
+                                <img src="./assests/sentiment-analysis.png" width="88" height="78" class="mb-2" alt="">
+                            </div>
+                            <h3>Sentiment Analysis</h3>
+                            <p>Understand customer sentiment and feedback from various sources</p>
                         </div>
-                        <h3>Sentiment Analysis</h3>
-                        <p>Understand customer sentiment and feedback from various sources</p>
-                    </div>
-                    <div class="attachcards col-md-4 text-center">
-                        <div class="attachi mgcont2"> 
-                            <img src="./assests/detection.png" width="88" height="88" alt="">
+                        <div class="attachcards col-md-4 text-center">
+                            <div class="attachi mgcont2">
+                                <img src="./assests/detection.png" width="88" height="88" alt="">
+                            </div>
+                            <h3>Anomaly Detection</h3>
+                            <p>Identify unusual patterns and potential risks within your data.</p>
                         </div>
-                        <h3>Anomaly Detection</h3>
-                        <p>Identify unusual patterns and potential risks within your data.</p>
-                    </div>
-                    <div class="attachcards col-md-4 text-center">
-                        <div class="attachi mgcont3">
-                            <img src="./assests/forecasts.png" width="88" height="88" alt="">
-                            
+                        <div class="attachcards col-md-4 text-center">
+                            <div class="attachi mgcont3">
+                                <img src="./assests/forecasts.png" width="88" height="88" alt="">
+
+                            </div>
+                            <h3>Predictive Analytics</h3>
+                            <p>Forecast future trends and outcomes based on historical data</p>
                         </div>
-                        <h3>Predictive Analytics</h3>
-                        <p>Forecast future trends and outcomes based on historical data</p>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
 
         <!-- background attachment section Completed -->
@@ -242,57 +247,61 @@
 
         <!-- <section class="improvedsec bg-light"> -->
         <!-- <div class="improveimg"></div> -->
-        <div class="chatbotcont chatbotcontone  forimage row p-5 container mx-auto text-center">
-            <h1 class="contenth1">Process Automation: for Optimizing Business <br> Efficiency</h1> <br>
-            <div class="col-md-4 chatbotcont1 p-5">
-                <i class="fa-solid fa-bug "></i><br>
-                <h2 class="py-3">Reduced Errors Effectively<br></h2>
-                <p class="">Eliminate manual errors and inconsistencies through automated workflows.</p>
+        <a href="./pages/html/automation.html" class="text-decoration-none">
+            <div class="chatbotcont chatbotcontone  forimage row p-5 container mx-auto text-center">
+                <h1 class="contenth1">Process Automation: for Optimizing Business <br> Efficiency</h1> <br>
+                <div class="col-md-4 chatbotcont1 p-5">
+                    <i class="fa-solid fa-bug "></i><br>
+                    <h2 class="py-3">Reduced Errors Effectively<br></h2>
+                    <p class="">Eliminate manual errors and inconsistencies through automated workflows.</p>
+                </div>
+                <div class="col-md-4 chatbotcont1 p-5 text-center">
+                    <i class="fa-solid fa-chart-simple"></i><br>
+                    <h2 class="py-3 ">Improved Productivity</h2>
+                    <p class="t">Free up your team to focus on strategic tasks by automating repetitive processes..</p>
+                </div>
+                <div class="col-md-4 chatbotcont1 p-5 text-center">
+                    <i class="fa-solid fa-turn-up "></i><br>
+                    <h2 class="py-3 ">Faster Turnaround Times</h2>
+                    <p class="">Streamline workflows and accelerate decision-making with automated processes..</p>
+                </div>
             </div>
-            <div class="col-md-4 chatbotcont1 p-5 text-center">
-                <i class="fa-solid fa-chart-simple"></i><br>
-                <h2 class="py-3 ">Improved Productivity</h2>
-                <p class="t">Free up your team to focus on strategic tasks by automating repetitive processes..</p>
-            </div>
-            <div class="col-md-4 chatbotcont1 p-5 text-center">
-                <i class="fa-solid fa-turn-up "></i><br>
-                <h2 class="py-3 ">Faster Turnaround Times</h2>
-                <p class="">Streamline workflows and accelerate decision-making with automated processes..</p>
-            </div>
-        </div>
+        </a>
         <!-- </section> -->
 
         <!-- improved section ended  -->
 
 
         <!-- chatbot section started -->
-
-        <section class="chatbotsec ">
-            <!-- <div class="chatbotimg"></div> -->
-            <div class="chatbotcont chatbotconttwo row p-2 p-md-5 container mx-auto text-center">
-                <h1 class="w-75 text-center mx-md-auto pb-3 pb-md-1 chatboth1">Intelligent Chatbot Development:
-                    Enhancing Customer Experience</h1> <br>
-                <div class="chatbotcardscont row d-flex "> 
-                    <div class="col-md-4 chatbotcont1 p-1 p-md-5">
-                        <i class="fa-solid fa-comment-sms"></i><br>
-                        <h2 class="py-3 ">24/7 Availability <br> Non-Stop</h2>
-                        <p>24/7 availability, reduced operating costs through automated task handling, faster response
-                            times
-                        </p>
-                    </div>
-                    <div class="col-md-4 chatbotcont1 p-1 p-md-5">
-                        <i class="fa-solid fa-robot"></i><br>
-                        <h2 class="py-3 ">Personalized Interactions</h2>
-                        <p>Deliver tailored responses based on customer preferences and past interactions.</p>
-                    </div>
-                    <div class="col-md-4 chatbotcont1 p-1 p-md-5">
-                        <i class="fa-solid fa-heart"></i><br>
-                        <h2 class="py-3 ">Improved Satisfaction</h2>
-                        <p>Enhance customer satisfaction with prompt and helpful interactions.</p>
+        <a href="./pages/html/automation.html" class="text-decoration-none">
+            <section class="chatbotsec ">
+                <!-- <div class="chatbotimg"></div> -->
+                <div class="chatbotcont chatbotconttwo row p-2 p-md-5 container mx-auto text-center">
+                    <h1 class="w-75 text-center mx-md-auto pb-3 pb-md-1 chatboth1">Intelligent Chatbot Development:
+                        Enhancing Customer Experience</h1> <br>
+                    <div class="chatbotcardscont row d-flex ">
+                        <div class="col-md-4 chatbotcont1 p-1 p-md-5">
+                            <i class="fa-solid fa-comment-sms"></i><br>
+                            <h2 class="py-3 ">24/7 Availability <br> Non-Stop</h2>
+                            <p>24/7 availability, reduced operating costs through automated task handling, faster
+                                response
+                                times
+                            </p>
+                        </div>
+                        <div class="col-md-4 chatbotcont1 p-1 p-md-5">
+                            <i class="fa-solid fa-robot"></i><br>
+                            <h2 class="py-3 ">Personalized Interactions</h2>
+                            <p>Deliver tailored responses based on customer preferences and past interactions.</p>
+                        </div>
+                        <div class="col-md-4 chatbotcont1 p-1 p-md-5">
+                            <i class="fa-solid fa-heart"></i><br>
+                            <h2 class="py-3 ">Improved Satisfaction</h2>
+                            <p>Enhance customer satisfaction with prompt and helpful interactions.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </a>
 
         <!-- chatbot section ended  -->
 
@@ -360,7 +369,7 @@
 
         <!-- what we do section ended  -->
 
-    </div>
+    <!-- </div> -->
 
 
     <!-- choose section started -->
@@ -441,10 +450,11 @@
 
                         </div>
                         <h4 class="text-light pt-3 text-center headname">WAQAR AZMAT</h4>
-                        <p class="text-light text-center headpost">HEAD OF GENAITECH</p>
+                        <p class="text-light text-center headpost">FOUNDER AT GENAITECH</p>
                     </div>
                     <div class="col-md-8 text-center d-flex flex-column ">
-                        <h2 class="text-center text-light pt-4 pb-3  calendlyHeading">The next market success could be yours. Let’s
+                        <h2 class="text-center text-light pt-4 pb-3  calendlyHeading">The next market success could be
+                            yours. Let’s
                             make
                             it
                             happen.</h2>
@@ -452,7 +462,7 @@
                             </p>
 
                             <a target="_blank"
-                                href="https://calendly.com/alamusama557/30min?hide_event_type_details=1&hide_gdpr_banner=1"><button
+                                href="https://calendly.com/waqarazmatsumeenzai/30min?hide_event_type_details=1&hide_gdpr_banner=1"><button
                                     class="calendlyBtn">Schedule
                                     a Consultation</button></a>
                             <!-- Calendly link widget end -->
@@ -577,47 +587,47 @@
             <div class="address pb-5">
 
                 <p class="footeraddpara footerHeading text-light">GenAITech</p>
-                <p class="footeraddpara text-light">Business :  &nbsp; &nbsp;waqarazmat@genaitech.be</p>
+                <p class="footeraddpara text-light">Business : &nbsp; &nbsp;waqarazmat@genaitech.be</p>
             </div>
 
-            
 
-                <div class="row address">
-                    <div class="col-md-3 pb-4 footerinfo">
-                        <h4 class="text-light h6">Services</h4>
-                        <p>AI Automation</p>
-                        <p>ChatBot Development</p>
-                        <p>Machine Learning</p>
-                    </div>
-                    <div class="col-md-3 footerinfo">
-                        <h4 class="text-light h6">Integrations</h4>
-                        <p>GMAIL</p>
-                        <p>Calender</p>
-                        <p>Linkedin</p>
-                        <p>Websites</p>
-                        <p>Socials</p>
-                        <p>Notion</p>
-                    </div>
-                    <div class="col-md-3 footerinfo">
-                        <h4 class="text-light h6">AI Models</h4>
-                        <p>OpenAI</p>
-                        <p>Anthropic</p>
-                        <p>Gemini</p>
-                        <p>VEO 3</p>
-                        <p>DALL-E</p>
-                        <p>RAG</p>
-                    </div>
-                    <div class="col-md-3 footerinfo">
-                        <h4 class="text-light h6">Technology</h4>
-                        <p>Node.js</p>
-                        <p>Eleven Labs</p>
-                        <p>LangChain</p>
-                        <p>Swift</p>
-                        <p>Python</p>
-                        <p>AWS</p>
-                    </div>
+
+            <div class="row address">
+                <div class="col-md-3 pb-4 footerinfo">
+                    <h4 class="text-light h6">Services</h4>
+                    <p>AI Automation</p>
+                    <p>ChatBot Development</p>
+                    <p>Machine Learning</p>
                 </div>
-           
+                <div class="col-md-3 footerinfo">
+                    <h4 class="text-light h6">Integrations</h4>
+                    <p>GMAIL</p>
+                    <p>Calender</p>
+                    <p>Linkedin</p>
+                    <p>Websites</p>
+                    <p>Socials</p>
+                    <p>Notion</p>
+                </div>
+                <div class="col-md-3 footerinfo">
+                    <h4 class="text-light h6">AI Models</h4>
+                    <p>OpenAI</p>
+                    <p>Anthropic</p>
+                    <p>Gemini</p>
+                    <p>VEO 3</p>
+                    <p>DALL-E</p>
+                    <p>RAG</p>
+                </div>
+                <div class="col-md-3 footerinfo">
+                    <h4 class="text-light h6">Technology</h4>
+                    <p>Node.js</p>
+                    <p>Eleven Labs</p>
+                    <p>LangChain</p>
+                    <p>Swift</p>
+                    <p>Python</p>
+                    <p>AWS</p>
+                </div>
+            </div>
+
 
         </div>
         <div class="container">

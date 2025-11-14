@@ -654,17 +654,17 @@ function dont8(){
     // Default configuration
     const defaultSettings = {
         webhook: {
-            url: '',
-            route: ''
+            url: 'http://localhost:5678/webhook/abe8058f-fd69-4173-8f51-27a924cfe1c0/chat',
+            route: 'general'
         },
         branding: {
             logo: '',
-            name: '',
-            welcomeText: '',
+            name: 'GenAITech',
+            welcomeText: 'Hey, How can i Assist You today?',
             responseTimeText: '',
             poweredBy: {
                 text: 'Powered by GenAiTech',
-                link: 'https://n8n.io'
+                link: 'https://GenAITech.be'
             }
         },
         style: {
@@ -1099,6 +1099,8 @@ function dont8(){
         });
     });
 })();
+
+
 
 
 // chat bot system completed
